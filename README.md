@@ -163,6 +163,8 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 Mario Kart afbeelding voor de favicon.
 2. https://stackoverflow.com/questions/7961721/how-do-i-install-a-custom-font-on-an-html-site
 Uitzoeken hoe @font-face werkt voor eigen mario fonts. 
-3. ...
+3. https://fontmeme.com/fonts/mario-kart-ds-font/
+https://fontmeme.com/fonts/mario-kart-f2-font/
+Mario kart fonts voor styling.
 
 </details>

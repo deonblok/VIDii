@@ -159,8 +159,10 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
+1. https://www.seekpng.com/ima/u2q8w7t4r5w7t4e6/
+Mario Kart afbeelding voor de favicon.
+2. https://stackoverflow.com/questions/7961721/how-do-i-install-a-custom-font-on-an-html-site
+Uitzoeken hoe @font-face werkt voor eigen mario fonts. 
 3. ...
 
 </details>

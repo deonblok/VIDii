@@ -1,45 +1,81 @@
 /*************/
+
+
 /* CSS RESET */
+
+
 /*************/
 
+
 /* naar een idee van Jen Simmons */
-*, *::after, *::before {
-  box-sizing:border-box;  
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: mario-kart-ds;
+    src: url(/assets/Mario-Kart-DS.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: mario-kart-f2;
+    src: url(/assets/mario_kart_f2.ttf);
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
-  margin:0;
+    margin: 0;
+    background-image: url("/images/background1space.jpeg");
 }
 
 button:not([disabled]) {
-  cursor:pointer;
+    cursor: pointer;
 }
 
 
-
-
-
 /*********************/
+
+
 /* CUSTOM PROPERTIES */
+
+
 /*********************/
 
 :root {
-  --color-headings:crimson
+    --color-headings: crimson
 }
 
 
-
-
-
 /********************/
+
+
 /* ALGEMENE STYLING */
+
+
 /********************/
 
 h1 {
-  color:var(--color-headings);
+    color: goldenrod;
+    display: grid;
+    place-items: center;
+    font-family: mario-kart-ds;
+    font-size: 3em;
+}
+
+h2 {
+    color: white;
+    font-family: mario-kart-f2;
+}
+
+p {
+    color: white;
 }
 
 
 /* ... */
-
-

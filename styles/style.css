@@ -79,12 +79,24 @@ h1 {
 h2 {
     color: var(--color-standard);
     font-family: mario-kart-f2;
+    display: grid;
+    place-items: center;
 }
 
 h3 {
     font-family: mario-icons;
     color: var(--color-standard);
     font-size: 5em;
+}
+
+h4 {
+    color: var(--color-standard);
+    font-family: mario-kart-f2;
+    display: none;
+}
+
+h4 img:hover {
+    display: block;
 }
 
 p {
@@ -126,7 +138,12 @@ img:first-of-type:hover {
 
 img:nth-of-type(2) {
     border: hotpink solid 1em;
-    top: 0;
+    bottom: 4em;
+    width: 7em;
+    height: 7em;
+    position: absolute;
+    z-index: 1;
+    animation: drive 5s infinite normal;
 }
 
 section:first-of-type {

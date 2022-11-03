@@ -149,7 +149,38 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
-
+      <ol>
+            <li>
+                <a href="#">Super mario kart 1992</a>
+            </li>
+            <li>
+                <a href="#">  Mario kart 64 1996</a>
+            </li>
+            <li>
+                <a href="#">Mario kart! Super Circuit 2001</a>
+            </li>
+            <li>
+                <a href="#">Mario kart double dash 2003</a>
+            </li>
+            <li>
+                <a href="#">Mario kart ds 2005</a>
+            </li>
+            <li>
+                <a href="#">Mario kart wii 2008</a>
+            </li>
+            <li>
+                <a href="#">Mario kart 7 2011</a>
+            </li>
+            <li>
+                <a href="#">Mario kart 8 2014</a>
+            </li>
+            <li>
+                <a href="#">Mario Kart 8 deluxe 2017</a>
+            </li>
+            <li>
+                <a href="#">Mario Kart tour 2019</a>
+            </li>
+        </ol>
 
 
 ## Bronnenlijst
@@ -166,5 +197,7 @@ Uitzoeken hoe @font-face werkt voor eigen mario fonts.
 3. https://fontmeme.com/fonts/mario-kart-ds-font/
 https://fontmeme.com/fonts/mario-kart-f2-font/
 Mario kart fonts voor styling.
+4. https://codepen.io/sarneeh/pen/GxyVVd
+Stars background animation
 
 </details>

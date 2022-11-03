@@ -1,20 +1,3 @@
-/*************/
-
-
-/* CSS RESET */
-
-
-/*************/
-
-
-/* naar een idee van Jen Simmons */
-
-*,
-*::after,
-*::before {
-    box-sizing: border-box;
-}
-
 @font-face {
     font-family: mario-kart-ds;
     src: url(/assets/Mario-Kart-DS.ttf);
@@ -36,9 +19,28 @@
     font-style: normal;
 }
 
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
 body {
     margin: 0;
-    background-image: url("/images/background1space.jpeg");
+    /* background-image: url("/images/background1space.jpeg"); */
+    background-color: black;
+    background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
+    animation: stars 300s linear infinite;
+}
+
+@keyframes stars {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 50em 50em;
+    }
 }
 
 button:not([disabled]) {
@@ -64,6 +66,9 @@ button:not([disabled]) {
 
 
 /* ALGEMENE STYLING */
+
+
+/* TEXT, H1, P */
 
 
 /********************/
@@ -103,34 +108,52 @@ p {
     color: white;
 }
 
+
+/* IMAGES */
+
+
+/**********/
+
 img:first-of-type {
     width: 7em;
     height: 7em;
-    position: absolute;
+    /* position: absolute; */
     z-index: 1;
     animation: drive 7s infinite normal;
+    border: hotpink solid 1em;
 }
 
 @keyframes drive {
-    from {
+    0% {
         transform: translateX(-12.5em);
+        border: #1e3ecb solid 1em;
     }
-    to {
+    50% {
+        border: greenyellow solid 1em;
+    }
+    100% {
         transform: translateX(110em);
+        border: firebrick solid 1em;
+    }
+}
+
+@keyframes jump {
+    0% {
+        top: 50em;
+    }
+    50% {
+        top: 40em;
+    }
+    65% {
+        top: 50em;
+    }
+    100% {
+        top: 50em;
     }
 }
 
 img:first-of-type:hover {
     border: blue solid 1em;
-}
-
-@keyframes jump {
-    from {
-        transform: translateX(-12.5em);
-    }
-    to {
-        transform: translateX(110em);
-    }
 }
 
 
@@ -143,16 +166,18 @@ img:nth-of-type(2) {
     height: 7em;
     position: absolute;
     z-index: 1;
-    animation: drive 5s infinite normal;
+    animation: drive 5s infinite normal, jump 6s infinite normal;
 }
 
 section:first-of-type {
     position: absolute;
-    height: 25em;
+    height: 21em;
     width: 200%;
     background: linear-gradient( 90deg, rgba(255, 0, 0, 1) 0%, rgba(255, 154, 0, 1) 10%, rgba(208, 222, 33, 1) 20%, rgba(79, 220, 74, 1) 30%, rgba(63, 218, 216, 1) 40%, rgba(47, 201, 226, 1) 50%, rgba(28, 127, 238, 1) 60%, rgba(95, 21, 242, 1) 70%, rgba(186, 12, 248, 1) 80%, rgba(251, 7, 217, 1) 90%, rgba(255, 0, 0, 1) 100%);
     border-top: .8em solid grey;
     border-bottom: .8em solid grey;
+    bottom: 0;
+    box-shadow: 0px 0px 38px 0px #000 inset;
 }
 
 section:nth-of-type(2) {
@@ -161,5 +186,30 @@ section:nth-of-type(2) {
     position: absolute;
     height: 0;
     position: relative;
-    top: 10em;
+    top: 11em;
+}
+
+
+/* Test images  */
+
+section:nth-of-type(3) {
+    animation: changeBg 1s infinite;
+    width: 143px;
+    height: 100px;
+}
+
+@keyframes changeBg {
+    0%,
+    100% {
+        background-image: url("https://i.stack.imgur.com/YdrqG.png");
+    }
+    25% {
+        background-image: url("https://i.stack.imgur.com/2wKWi.png");
+    }
+    50% {
+        background-image: url("https://i.stack.imgur.com/HobHO.png");
+    }
+    75% {
+        background-image: url("https://i.stack.imgur.com/3hiHO.png");
+    }
 }

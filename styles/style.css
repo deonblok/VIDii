@@ -23,7 +23,7 @@
 *::after,
 *::before {
     box-sizing: border-box;
-    cursor: url('../images/mario-cursor.png'), auto;
+    cursor: url('../images/mario-cursor.png') 25 15, auto;
 }
 
 body {
@@ -228,26 +228,8 @@ section:nth-of-type(2) {
     margin: 10px auto;
     width: 300px;
     height: 300px;
-}
-
-
-/* Shine on the steering wheel */
-
-#wheel::before {
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border: 4px solid #5F5F5F;
-    height: 93%;
-    left: 3.5%;
-    opacity: 0.4;
-    top: 3.5%;
-    width: 93%;
-    content: '';
-    position: absolute;
-    border-radius: 50%;
-    background: transparent;
-    z-index: 3;
+    display: grid;
+    place-items: center;
 }
 
 
@@ -258,19 +240,10 @@ section:nth-of-type(2) {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background: -webkit-gradient(linear, center top, center bottom, from(#1C1C1C), color-stop(0.02, #1C1C1C), color-stop(0.09, #000000), color-stop(0.93, #000000), to(#596378));
-    background: -webkit-linear-gradient(center top, #1C1C1C, #1C1C1C 2%, #000000 9%, #000000 93%, #5C5C5C);
-    background: -moz-linear-gradient(center top, #1C1C1C, #1C1C1C 2%, #000000 9%, #000000 93%, #5C5C5C);
-    background: -ms-linear-gradient(center top, #1C1C1C, #1C1C1C 2%, #000000 9%, #000000 93%, #5C5C5C);
-    border-right: 2px solid rgba(89, 99, 120, 0.4);
-    border-top: 2px solid rgba(89, 99, 120, 0.4);
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    -moz-transform: rotate(-135deg);
+    background: black;
+    box-shadow: 0px 0px 10px 3px #696969 inset;
+    /* 	Snap dit deel niet van de code - draait onderdeel met 135 graden */
     -webkit-transform: rotate(-135deg);
-    -ms-transform: rotate(-135deg);
-    -o-transform: rotate(-135deg);
 }
 
 
@@ -283,12 +256,12 @@ section:nth-of-type(2) {
     top: 10%;
     width: 80%;
     border-radius: 50%;
+    background: rgb(120, 219, 255);
     overflow: hidden;
     z-index: 2;
-    -moz-transform: rotate(135deg);
+    box-shadow: 0px 0px 10px 3px #2B2B2B;
+    /* 	Snap dit deel niet van de code - draait onderdeel met 135 graden */
     -webkit-transform: rotate(135deg);
-    -ms-transform: rotate(135deg);
-    -o-transform: rotate(135deg);
 }
 
 
@@ -302,19 +275,9 @@ section:nth-of-type(2) {
     top: 30%;
     width: 47.917%;
     border-radius: 19%;
-    background: -webkit-gradient(linear, center top, center bottom, from(#000000), color-stop(0.3, #000000), color-stop(0.5, #373737), color-stop(0.7, #000000), to(#000000));
-    background: -webkit-linear-gradient(top center, #000000, #000000 30%, #373737 50%, #000000 70%, #000000);
-    background: -moz-linear-gradient(top center, #000000, #000000 30%, #373737 50%, #000000 70%, #000000);
-    background: -ms-linear-gradient(top center, #000000, #000000 30%, #373737 50%, #000000 70%, #000000);
-    transform: rotate(20deg);
-    -ms-transform: rotate(20deg);
-    -moz-transform: rotate(20deg);
+    background: grey;
     -webkit-transform: rotate(20deg);
-    -o-transform: rotate(20deg);
-    -moz-transform-origin: 20% 120%;
-    -ms-transform-origin: 20% 120%;
     -webkit-transform-origin: 20% 120%;
-    -o-transform-origin: 20% 120%;
 }
 
 
@@ -328,19 +291,9 @@ section:nth-of-type(2) {
     top: 30%;
     width: 47.917%;
     border-radius: 19%;
-    background: -webkit-gradient(linear, center top, center bottom, from(#000000), color-stop(0.3, #000000), color-stop(0.5, #373737), color-stop(0.7, #000000), to(#000000));
-    background: -webkit-linear-gradient(top center, #000000, #000000 30%, #373737 50%, #000000 70%, #000000);
-    background: -moz-linear-gradient(top center, #000000, #000000 30%, #373737 50%, #000000 70%, #000000);
-    background: -ms-linear-gradient(top center, #000000, #000000 30%, #373737 50%, #000000 70%, #000000);
-    transform: rotate(-20deg);
-    -ms-transform: rotate(-20deg);
-    -moz-transform: rotate(-20deg);
+    background: blue;
     -webkit-transform: rotate(-20deg);
-    -o-transform: rotate(-20deg);
-    -moz-transform-origin: 80% 120%;
-    -ms-transform-origin: 80% 120%;
     -webkit-transform-origin: 80% 120%;
-    -o-transform-origin: 80% 120%;
 }
 
 
@@ -353,10 +306,7 @@ section:nth-of-type(2) {
     left: 44%;
     width: 9.17%;
     border-radius: 19%;
-    background: -webkit-gradient(linear, left center, right center, from(#000000), color-stop(0.3, #000000), color-stop(0.5, #373737), color-stop(0.7, #000000), to(#000000));
-    background: -webkit-linear-gradient(left center, #000000, #000000 30%, #373737 50%, #000000 70%, #000000);
-    background: -moz-linear-gradient(left center, #000000, #000000 30%, #373737 50%, #000000 70%, #000000);
-    background: -ms-linear-gradient(left center, #000000, #000000 30%, #373737 50%, #000000 70%, #000000);
+    background: green;
 }
 
 
@@ -370,16 +320,13 @@ section:nth-of-type(2) {
     top: 38%;
     width: 37.5%;
     z-index: 1;
-    background: -webkit-gradient(linear, center top, center bottom, from(#000000), to(#323232));
-    background: -moz-linear-gradient(center top, #000000, #323232);
-    background: -webkit-linear-gradient(center top, #000000, #323232);
-    background: -ms-linear-gradient(center top, #000000, #323232);
-    background: -o-linear-gradient(center top, #000000, #323232);
+    background: red;
 }
 
 #beep::after {
-    background: #373737;
-    border-radius: 100px 100px 180px 180px / 20px 20px 250px 250px;
+    background: yellow;
+    border-radius: 10em;
+    filter: blur(.4em);
     content: "";
     height: 35.71%;
     left: 8%;

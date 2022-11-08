@@ -201,4 +201,6 @@ Mario kart fonts voor styling.
 Stars background animation
 5. https://icons8.com/icons/set/mario-kart
 Cursor mario kart logo
+6. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+Flexbox voor het responsive maken van de list items.
 </details>

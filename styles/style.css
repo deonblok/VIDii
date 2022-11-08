@@ -1,20 +1,20 @@
 @font-face {
     font-family: mario-kart-ds;
-    src: url(/assets/Mario-Kart-DS.ttf);
+    src: url(../fonts/mario-kart-ds-webfont.woff);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: mario-kart-f2;
-    src: url(/assets/mario_kart_f2.ttf);
+    src: url(../fonts/mario_kart_f2-webfont.woff);
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: mario-icons;
-    src: url(/assets/MARIO.TTF);
+    src: url(/fonts/MARIO.TTF);
     font-weight: normal;
     font-style: normal;
 }
@@ -62,19 +62,17 @@ button:not([disabled]) {
 :root {
     --color-headings: goldenrod;
     --color-standard: white;
+    --color-mario: #FF3D00;
 }
 
 
-/********************/
-
-
-/* ALGEMENE STYLING */
+/****************/
 
 
 /* TEXT, H1, P */
 
 
-/********************/
+/***************/
 
 h1 {
     color: var(--color-headings);
@@ -103,13 +101,12 @@ h4 {
     display: none;
 }
 
-h4 img:hover {
-    display: block;
+p {
+    color: var(--color-standard);
 }
 
-p {
-    color: white;
-}
+
+/**********/
 
 
 /* IMAGES */
@@ -117,227 +114,79 @@ p {
 
 /**********/
 
-
-/* img:first-of-type {
-    width: 7em;
-    height: 7em;
-    z-index: 1;
-    animation: drive 7s infinite normal;
-    border: hotpink solid 1em;
-}
-
-@keyframes drive {
-    0% {
-        transform: translateX(-12.5em);
-        border: #1e3ecb solid 1em;
-    }
-    50% {
-        border: greenyellow solid 1em;
-    }
-    100% {
-        transform: translateX(110em);
-        border: firebrick solid 1em;
-    }
-} */
-
-
-/* @keyframes jump {
-    0% {
-        top: 50em;
-    }
-    50% {
-        top: 40em;
-    }
-    65% {
-        top: 50em;
-    }
-    100% {
-        top: 50em;
-    }
-}
-
-img:first-of-type:hover {
-    border: blue solid 1em;
-} */
-
-
-/*  */
-
-
-/* img:nth-of-type(2) {
-    border: hotpink solid 1em;
-    bottom: 4em;
-    width: 7em;
-    height: 7em;
+article {
     position: absolute;
-    z-index: 1;
-    animation: drive 5s infinite normal, jump 6s infinite normal;
-}
-
-section:first-of-type {
-    position: absolute;
-    height: 21em;
-    width: 200%;
-    background: linear-gradient( 90deg, rgba(255, 0, 0, 1) 0%, rgba(255, 154, 0, 1) 10%, rgba(208, 222, 33, 1) 20%, rgba(79, 220, 74, 1) 30%, rgba(63, 218, 216, 1) 40%, rgba(47, 201, 226, 1) 50%, rgba(28, 127, 238, 1) 60%, rgba(95, 21, 242, 1) 70%, rgba(186, 12, 248, 1) 80%, rgba(251, 7, 217, 1) 90%, rgba(255, 0, 0, 1) 100%);
-    border-top: .8em solid grey;
-    border-bottom: .8em solid grey;
-    bottom: 0;
-    box-shadow: 0px 0px 38px 0px #000 inset;
-}
-
-section:nth-of-type(2) {
-    border: .5em dashed #fff;
-    width: 200%;
-    position: absolute;
-    height: 0;
+    display: grid;
+    place-content: center;
     position: relative;
-    top: 11em;
-} */
-
-
-/* Test images  */
-
-
-/* section:nth-of-type(3) {
-    animation: changeBg 1s infinite;
-    width: 143px;
-    height: 100px;
 }
 
-@keyframes changeBg {
-    0%,
-    100% {
-        background-image: url("https://i.stack.imgur.com/YdrqG.png");
-    }
-    25% {
-        background-image: url("https://i.stack.imgur.com/2wKWi.png");
-    }
-    50% {
-        background-image: url("https://i.stack.imgur.com/HobHO.png");
-    }
-    75% {
-        background-image: url("https://i.stack.imgur.com/3hiHO.png");
-    }
-} */
+article img {
+    width: 20em;
+    height: 20em;
+}
+
+.naarRechts {
+    transition: 2s;
+    transform: rotate(-36deg);
+}
+
+.naarLinks {
+    transition: 4s;
+    transform: rotate(36deg);
+}
+
+img:first-of-type {
+    display: flex;
+    justify-content: center;
+}
+
+ol {
+    display: flex;
+    flex-direction: row;
+}
+
+ol li {
+    list-style: none;
+}
+
+ol li img {
+    width: 10%;
+    height: 20%;
+}
+
+
+/**************/
 
 
 /* Container */
 
-#wheel {
-    position: relative;
-    margin: 10px auto;
-    width: 300px;
-    height: 300px;
-}
 
-
-/* Round Part of the wheel */
-
-#wheel_b {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background: black;
-    box-shadow: 0px 0px 10px 3px #696969 inset;
-    /* 	Snap dit deel niet van de code - draait onderdeel met 135 graden */
-    -webkit-transform: rotate(-135deg);
-}
-
-
-/* Steering wheel interior */
-
-#wheel_c {
-    height: 80%;
-    left: 10%;
-    position: absolute;
-    top: 10%;
-    width: 80%;
-    border-radius: 50%;
-    background: rgb(120, 219, 255);
-    overflow: hidden;
-    z-index: 2;
-    box-shadow: 0px 0px 10px 3px #2B2B2B;
-    /* 	Snap dit deel niet van de code - draait onderdeel met 135 graden */
-    -webkit-transform: rotate(135deg);
-}
-
-
-/* Top Left Part */
-
-#wheel_c::before {
-    content: '';
-    height: 8.3%;
-    left: 0px;
-    position: absolute;
-    top: 30%;
-    width: 47.917%;
-    border-radius: 19%;
-    background: grey;
-    -webkit-transform: rotate(20deg);
-    -webkit-transform-origin: 20% 120%;
-}
-
-
-/* Top Right Part */
-
-#wheel_c::after {
-    content: '';
-    height: 8.3%;
-    right: 0px;
-    position: absolute;
-    top: 30%;
-    width: 47.917%;
-    border-radius: 19%;
-    background: blue;
-    -webkit-transform: rotate(-20deg);
-    -webkit-transform-origin: 80% 120%;
-}
-
-
-/* Bottom Center Part */
-
-#wheel_d {
-    height: 49.17%;
-    bottom: -10px;
-    position: absolute;
-    left: 44%;
-    width: 9.17%;
-    border-radius: 19%;
-    background: green;
-}
-
-
-/* Center Center Part */
-
-#beep {
-    border-radius: 100px 100px 180px 180px / 20px 20px 250px 250px;
-    height: 29.17%;
-    left: 30%;
-    position: absolute;
-    top: 38%;
-    width: 37.5%;
-    z-index: 1;
-    background: red;
-}
-
-#beep::after {
-    background: yellow;
-    border-radius: 10em;
-    filter: blur(.4em);
-    content: "";
-    height: 35.71%;
-    left: 8%;
-    position: absolute;
-    top: 8%;
-    width: 85.71%;
-}
+/************/
 
 button {
-    display: grid;
-    place-content: center;
+    left: 47vw;
+    top: 7vh;
+    position: relative;
+    justify-content: center;
+    background-color: var(--color-mario);
+    border: none;
+    color: var(--color-standard);
+    text-align: center;
+    padding: 1em;
+    border-radius: 20%;
+    font-size: 1.1em;
 }
 
 ul {
     list-style: none;
+}
+
+button {}
+
+button:hover {
+    background-color: #4CAF50;
+    /* Green */
+    color: var(--color-standard);
+    transition-duration: 0.4s;
 }

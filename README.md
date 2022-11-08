@@ -93,7 +93,7 @@ Mijn startniveau is: hier je startniveau (kies uit zwart, rood óf blauw)
 
   ### Bevinding 3:
   ...
-
+Veel tijd geinvesteerd in het begrijpen van een css steering wheel. uiteindelijk toch gekozen voor een image.
 </details>
 
 

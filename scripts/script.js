@@ -18,6 +18,7 @@ console.log("Howdy!");
 // deButton.addEventListener("click", stuurRechts);
 
 
+// Variabelen voor elke button image
 var deEersteMario = document.querySelector('ol li:first-of-type button img');
 var deTweedeMario = document.querySelector('ol li:nth-of-type(2) button img');
 var deDerdeMario = document.querySelector('ol li:nth-of-type(3) button img');
@@ -31,21 +32,36 @@ var deTiendeMario = document.querySelector('ol li:nth-of-type(10) button img');
 
 var pElement = document.querySelector("section:first-of-type p")
 
+var sectionImage = document.querySelector("section:nth-of-type(2) img")
+var sectionP = document.querySelector("section:first-of-type p")
 
-deEersteMario.addEventListener("click", eersteDraai);
+var Stuur = document.querySelector("article img");
 
-function eersteDraai() {
-    var Stuur = document.querySelector("article img");
+
+deEersteMario.addEventListener("click", function() {
+    sectionImage.classList.toggle("activate");
+    sectionP.classList.toggle("activate");
+    console.log('holy shit hij doet het!!');
     Stuur.classList.add("naarRechts1");
+    // Het aanpassen van de p tekst per draai
     pElement.textContent = "Mario";
-}
+})
 
+
+// deEersteMario.addEventListener("click", eersteDraai);
+// // Functions voor het draaien van het stuur per uitgebrachte Mario Kart game
+// function eersteDraai() {
+//     Stuur.classList.add("naarRechts1");
+//     // Het aanpassen van de p tekst per draai
+//     pElement.textContent = "Mario";
+// }
 
 deTweedeMario.addEventListener("click", tweedeDraai);
 
 function tweedeDraai() {
     var Stuur = document.querySelector("article img");
     Stuur.classList.add("naarRechts2");
+    pElement.textContent = "luigi";
 }
 
 deDerdeMario.addEventListener("click", derdeDraai);
@@ -53,6 +69,7 @@ deDerdeMario.addEventListener("click", derdeDraai);
 function derdeDraai() {
     var Stuur = document.querySelector("article img");
     Stuur.classList.add("naarRechts3");
+    pElement.textContent = "3";
 }
 
 deVierdeMario.addEventListener("click", vierdeDraai);
@@ -60,6 +77,7 @@ deVierdeMario.addEventListener("click", vierdeDraai);
 function vierdeDraai() {
     var Stuur = document.querySelector("article img");
     Stuur.classList.add("naarRechts4");
+    pElement.textContent = "4";
 }
 
 
@@ -106,6 +124,7 @@ function tiendeDraai() {
 }
 deTiendeMario.addEventListener("click", testImg);
 
+// Functions voor het aanpassen van de afbeelingen
 function testImg() {
     var marioKart10 = document.querySelector("section:nth-of-type(2) img");
     marioKart10.classList.toggle("test");

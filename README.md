@@ -204,4 +204,8 @@ Stars background animation
 Cursor mario kart logo
 6. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 Flexbox voor het responsive maken van de list items.
+7. https://www.google.com/url?sa=i&url=https%3A%2F%2Fwall.alphacoders.com%2Fby_sub_category.php%3Fid%3D267211%26name%3DMario%2BKart%2B8%2BDeluxe%2BWallpapers%26filter%3D4K%2BUltra%2BHD%26lang%3DDutch&psig=AOvVaw2eE4_K1D7tqgDEpay6sLOO&ust=1668115823811000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCMDtruqFovsCFQAAAAAdAAAAABAE
+mario bg
+8. https://medium.com/codex/css-states-pseudo-classes-522fe7b6c454
+Voor het opfrissen van de verschillende states en hoe te gebruiken.
 </details>

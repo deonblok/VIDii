@@ -32,7 +32,7 @@
 body {
     margin: 0;
     background-color: var(--color-headings);
-    background-image: url("../images/background-mario.png");
+    background-image: url("/images/background-mariocircuit.jpeg");
     background-size: 100%;
     background-repeat: no-repeat;
     font-family: Geneva, Verdana, sans-serif;
@@ -56,6 +56,7 @@ body {
     --color-standard: white;
     --color-mario: #FF3D00;
     --color-blackshadow: #00000038;
+    --color-black: black;
 }
 
 
@@ -210,28 +211,6 @@ ol li button img:hover {
     }
 }
 
-ol li:first-of-type button img {
-    /* visibility: hidden; */
-}
-
-ol li:nth-of-type(2) button img {}
-
-ol li:nth-of-type(3) button img {}
-
-ol li:nth-of-type(4) button img {}
-
-ol li:nth-of-type(5) button img {}
-
-ol li:nth-of-type(6) button img {}
-
-ol li:nth-of-type(7) button img {}
-
-ol li:nth-of-type(8) button img {}
-
-ol li:nth-of-type(9) button img {}
-
-ol li:nth-of-type(10) button img {}
-
 
 /**************/
 
@@ -247,15 +226,26 @@ button {
     position: relative;
     color: var(--color-standard);
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1.2em;
     background: none;
     border: none;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    color: var(--color-black);
 }
 
 button:hover {
     transition-duration: 0.4s;
+}
+
+button:focus-visible {
+    border: dashed .3em var(--color-black);
+    filter: drop-shadow(0 0 0.75rem var(--color-black));
+}
+
+button:active {
+    background-color: var(--color-mario);
 }
 
 
@@ -421,7 +411,7 @@ section:first-of-type {
 section:nth-of-type(2) img {
     position: relative;
     width: 20%;
-    height: 20em;
+    height: 20%;
     visibility: hidden;
 }
 
@@ -436,13 +426,50 @@ section:first-of-type p.activate {
 section:nth-of-type(2) {
     display: flex;
     justify-content: flex-start;
+    flex-direction: column;
     left: 4em;
     position: relative;
     top: -45em;
     visibility: hidden;
 }
 
-section:nth-of-type(2) img.test {
+section:nth-of-type(2) img.marioEen {
+    content: url("/images/mk-1992.png");
+}
+
+section:nth-of-type(2) img.marioTwee {
+    content: url("/images/mk-mario64.jpeg");
+}
+
+section:nth-of-type(2) img.marioDrie {
+    content: url("/images/mk-doubledash.png");
+}
+
+section:nth-of-type(2) img.marioVier {
+    content: url("/images/mk-supercircuit.jpeg");
+}
+
+section:nth-of-type(2) img.marioVijf {
+    content: url("/images/mk-ds.png");
+}
+
+section:nth-of-type(2) img.marioZes {
+    content: url("/images/mk-wii.jpeg");
+}
+
+section:nth-of-type(2) img.marioZeven {
+    content: url("../images/mariotest.png");
+}
+
+section:nth-of-type(2) img.marioAcht {
+    content: url("../images/mariotest.png");
+}
+
+section:nth-of-type(2) img.marioNegen {
+    content: url("../images/mariotest.png");
+}
+
+section:nth-of-type(2) img.marioTien {
     content: url("../images/mariotest.png");
 }
 

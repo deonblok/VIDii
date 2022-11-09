@@ -12,13 +12,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: mario-icons;
-    src: url(/fonts/MARIO.TTF);
-    font-weight: normal;
-    font-style: normal;
-}
-
 
 /* @media-query (prefers-color-scheme: dark) {
      :root {
@@ -42,10 +35,8 @@ body {
     background-image: url("../images/background-mario.png");
     background-size: 100%;
     background-repeat: no-repeat;
+    font-family: fallback;
 }
-
-
-/* ANIMATIE BEWEGING STERREN */
 
 */ button:not([disabled]) {
     cursor: pointer;
@@ -135,11 +126,25 @@ article img:hover {
 }
 
 @keyframes rotatie-stuur {
-    0% {
-        transform: rotate(0);
-    }
+    0%,
     100% {
-        transform: rotate(360deg);
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
+    }
+    15% {
+        transform: translateX(-30px) rotate(-6deg);
+    }
+    30% {
+        transform: translateX(15px) rotate(6deg);
+    }
+    45% {
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
+    60% {
+        transform: translateX(9px) rotate(2.4deg);
+    }
+    75% {
+        transform: translateX(-6px) rotate(-1.2deg);
     }
 }
 
@@ -205,9 +210,8 @@ ol li button img:hover {
     }
 }
 
-
-/* ol li:first-of-type button img {
-    /* visibility: hidden; 
+ol li:first-of-type button img {
+    /* visibility: hidden; */
 }
 
 ol li:nth-of-type(2) button img {}
@@ -226,7 +230,7 @@ ol li:nth-of-type(8) button img {}
 
 ol li:nth-of-type(9) button img {}
 
-ol li:nth-of-type(10) button img {} */
+ol li:nth-of-type(10) button img {}
 
 
 /**************/
@@ -243,10 +247,11 @@ button {
     position: relative;
     color: var(--color-standard);
     text-align: center;
-    /*  border-radius: 20%; */
     font-size: 1.1em;
     background: none;
     border: none;
+    display: flex;
+    flex-direction: column;
 }
 
 button:hover {
@@ -266,7 +271,8 @@ button:nth-of-type(3) {
 
 /*********************************/
 
-.naarLinks {
+
+/* .naarLinks {
     transition: 2s;
     transform: rotate(-36deg);
 }
@@ -323,7 +329,7 @@ button:nth-of-type(3) {
     transition: 4s;
     transform: rotate(-360deg);
     animation-fill-mode: forwards;
-}
+} */
 
 .naarRechts1 {
     transition: 4s;
@@ -405,7 +411,7 @@ section:first-of-type p {
     width: 30%;
     height: 20em;
     background-color: #FF3D00;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 section:first-of-type {
@@ -414,7 +420,7 @@ section:first-of-type {
     right: 4em;
     position: relative;
     top: -23em;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 section:nth-of-type(2) img {
@@ -422,7 +428,7 @@ section:nth-of-type(2) img {
     position: relative;
     width: 30%;
     height: 20em;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 section:nth-of-type(2) {
@@ -431,7 +437,11 @@ section:nth-of-type(2) {
     left: 4em;
     position: relative;
     top: -45em;
-    visibility: hidden;
+    /* visibility: hidden; */
+}
+
+section:nth-of-type(2) img.test {
+    content: url("../images/mariotest.png");
 }
 
 

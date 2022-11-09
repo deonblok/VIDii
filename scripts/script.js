@@ -29,12 +29,15 @@ var deAchtsteMario = document.querySelector('ol li:nth-of-type(8) button img');
 var deNegendeMario = document.querySelector('ol li:nth-of-type(9) button img');
 var deTiendeMario = document.querySelector('ol li:nth-of-type(10) button img');
 
+var pElement = document.querySelector("section:first-of-type p")
+
 
 deEersteMario.addEventListener("click", eersteDraai);
 
 function eersteDraai() {
     var Stuur = document.querySelector("article img");
     Stuur.classList.add("naarRechts1");
+    pElement.textContent = "Mario";
 }
 
 
@@ -100,6 +103,12 @@ deTiendeMario.addEventListener("click", tiendeDraai);
 function tiendeDraai() {
     var Stuur = document.querySelector("article img");
     Stuur.classList.add("naarRechts10");
+}
+deTiendeMario.addEventListener("click", testImg);
+
+function testImg() {
+    var marioKart10 = document.querySelector("section:nth-of-type(2) img");
+    marioKart10.classList.toggle("test");
 }
 
 

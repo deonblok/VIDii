@@ -19,6 +19,16 @@
     font-style: normal;
 }
 
+
+/* @media-query (prefers-color-scheme: dark) {
+     :root {
+        --color-headings: blue;
+        --color-standard: black;
+        --color-mario: green;
+        --color-blackshadow: #00000038;
+    }
+} */
+
 *,
 *::after,
 *::before {
@@ -28,23 +38,14 @@
 
 body {
     margin: 0;
-    /* background-image: url("/images/background1space.jpeg"); */
-    background-color: rgb(120, 219, 255);
-    background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
-    animation: stars 30s linear infinite;
+    background-color: var(--color-headings);
+    background-image: url("../images/background-mario.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 
 /* ANIMATIE BEWEGING STERREN */
-
-@keyframes stars {
-    0% {
-        background-position: 0 0;
-    }
-    100% {
-        background-position: 50em 50em;
-    }
-}
 
 */ button:not([disabled]) {
     cursor: pointer;
@@ -126,12 +127,27 @@ article {
 article img {
     width: 20em;
     height: 20em;
+    filter: drop-shadow(0 0 .8em rgba(0, 0, 0, 0.348));
 }
 
-img:first-of-type {
+article img:hover {
+    animation: rotatie-stuur 1s ease 0s 1 normal forwards;
+}
+
+@keyframes rotatie-stuur {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* img:first-of-type {
     display: flex;
     justify-content: center;
-}
+} */
 
 
 /**********/
@@ -152,9 +168,12 @@ ol {
     flex-wrap: wrap;
 }
 
+ol li button {
+    font-family: mario-kart-ds;
+}
+
 ol li {
     list-style: none;
-    font-family: mario-kart-ds;
 }
 
 ol li img {
@@ -162,7 +181,7 @@ ol li img {
     height: 8em;
 }
 
-ol li img:hover {
+ol li button img:hover {
     border-top-left-radius: .5em;
     border-bottom-left-radius: .5em;
     animation-name: hover-timeline;
@@ -187,6 +206,29 @@ ol li img:hover {
 }
 
 
+/* ol li:first-of-type button img {
+    /* visibility: hidden; 
+}
+
+ol li:nth-of-type(2) button img {}
+
+ol li:nth-of-type(3) button img {}
+
+ol li:nth-of-type(4) button img {}
+
+ol li:nth-of-type(5) button img {}
+
+ol li:nth-of-type(6) button img {}
+
+ol li:nth-of-type(7) button img {}
+
+ol li:nth-of-type(8) button img {}
+
+ol li:nth-of-type(9) button img {}
+
+ol li:nth-of-type(10) button img {} */
+
+
 /**************/
 
 
@@ -196,35 +238,157 @@ ol li img:hover {
 /************/
 
 button {
-    left: 47vw;
+    /* left: 47vw; */
     top: 7vh;
     position: relative;
-    justify-content: center;
-    background-color: var(--color-mario);
-    border: none;
     color: var(--color-standard);
     text-align: center;
-    padding: 1em;
-    border-radius: 20%;
+    /*  border-radius: 20%; */
     font-size: 1.1em;
+    background: none;
+    border: none;
 }
 
 button:hover {
-    background-color: #4CAF50;
-    /* Green */
-    color: var(--color-standard);
     transition-duration: 0.4s;
 }
 
-.naarRechts {
+button:nth-of-type(3) {
+    border-color: blueviolet solid 2em;
+}
+
+
+/*********************************/
+
+
+/* CLASSES FOR ROTATE JAVASCRIPT */
+
+
+/*********************************/
+
+.naarLinks {
     transition: 2s;
     transform: rotate(-36deg);
 }
 
-.naarLinks {
+.naarLinks2 {
+    transition: 4s;
+    transform: rotate(-72deg);
+    animation-fill-mode: forwards;
+}
+
+.naarLinks3 {
+    transition: 4s;
+    transform: rotate(-108deg);
+    animation-fill-mode: forwards;
+}
+
+.naarLinks4 {
+    transition: 4s;
+    transform: rotate(-144deg);
+    animation-fill-mode: forwards;
+}
+
+.naarLinks5 {
+    transition: 4s;
+    transform: rotate(-180deg);
+    animation-fill-mode: forwards;
+}
+
+.naarLinks6 {
+    transition: 4s;
+    transform: rotate(-216deg);
+    animation-fill-mode: forwards;
+}
+
+.naarLinks7 {
+    transition: 4s;
+    transform: rotate(252deg);
+    animation-fill-mode: forwards;
+}
+
+.naarLinks8 {
+    transition: 4s;
+    transform: rotate(-288deg);
+    animation-fill-mode: forwards;
+}
+
+.naarLinks9 {
+    transition: 4s;
+    transform: rotate(-324deg);
+    animation-fill-mode: forwards;
+}
+
+.naarLinks10 {
+    transition: 4s;
+    transform: rotate(-360deg);
+    animation-fill-mode: forwards;
+}
+
+.naarRechts1 {
     transition: 4s;
     transform: rotate(36deg);
+    animation-fill-mode: forwards;
 }
+
+.naarRechts2 {
+    transition: 4s;
+    transform: rotate(72deg);
+    animation-fill-mode: forwards;
+}
+
+.naarRechts3 {
+    transition: 4s;
+    transform: rotate(108deg);
+    animation-fill-mode: forwards;
+}
+
+.naarRechts4 {
+    transition: 4s;
+    transform: rotate(144deg);
+    animation-fill-mode: forwards;
+}
+
+.naarRechts5 {
+    transition: 4s;
+    transform: rotate(180deg);
+    animation-fill-mode: forwards;
+}
+
+.naarRechts6 {
+    transition: 4s;
+    transform: rotate(216deg);
+    animation-fill-mode: forwards;
+}
+
+.naarRechts7 {
+    transition: 4s;
+    transform: rotate(252deg);
+    animation-fill-mode: forwards;
+}
+
+.naarRechts8 {
+    transition: 4s;
+    transform: rotate(288deg);
+    animation-fill-mode: forwards;
+}
+
+.naarRechts9 {
+    transition: 4s;
+    transform: rotate(324deg);
+    animation-fill-mode: forwards;
+}
+
+.naarRechts10 {
+    transition: 4s;
+    transform: rotate(360deg);
+    animation-fill-mode: forwards;
+}
+
+
+/* li:nth-of-type(3) img.gekust {
+    content:url("https://assets.codepen.io/274456/ft-icon-princess.svg");
+} */
 
 
 /**********/
@@ -241,6 +405,7 @@ section:first-of-type p {
     width: 30%;
     height: 20em;
     background-color: #FF3D00;
+    visibility: hidden;
 }
 
 section:first-of-type {
@@ -249,14 +414,15 @@ section:first-of-type {
     right: 4em;
     position: relative;
     top: -23em;
+    visibility: hidden;
 }
 
-section:nth-of-type(2) p {
+section:nth-of-type(2) img {
     border: #4CAF50 solid 1em;
     position: relative;
     width: 30%;
     height: 20em;
-    background-color: #FF3D00;
+    visibility: hidden;
 }
 
 section:nth-of-type(2) {
@@ -265,6 +431,7 @@ section:nth-of-type(2) {
     left: 4em;
     position: relative;
     top: -45em;
+    visibility: hidden;
 }
 
 
@@ -275,12 +442,3 @@ section:nth-of-type(2) {
 
 
 /*************/
-
-@media-query (prefers-color-scheme: dark) {
-    body {
-        background-color: black;
-    }
-    h1 {
-        color: black;
-    }
-}

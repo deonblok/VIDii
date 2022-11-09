@@ -148,6 +148,7 @@ Veel tijd geinvesteerd in het begrijpen van een css steering wheel. uiteindelijk
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
+If else als naar links 2 dan links3  of rechts 1
 
       <ol>
             <li>

@@ -400,7 +400,7 @@ section:nth-of-type(2) img.marioZes {
 }
 
 section:nth-of-type(2) img.marioZeven {
-    content: url("/images/mk-mariokart7.png");
+    content: url("../images/mk-mariokart7.png");
 }
 
 section:nth-of-type(2) img.marioAcht {

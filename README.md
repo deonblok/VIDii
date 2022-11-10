@@ -34,7 +34,7 @@ Blauw!
   - Ik wil graag beter worden in het coderen op gebied van html, css en javascript.
   - Ik wil meer plezier ervaren in coderen.
   - Ik wil mijzelf uitdagen aangezien ik dit een lastige opdracht vind.
-  -Ik wil mijn kennis verbreden zodat ik meer kan coderen in de toekomst.
+  - Ik wil mijn kennis verbreden zodat ik meer kan coderen in de toekomst.
  
 </details>
 
@@ -47,10 +47,11 @@ Ik wist al gelijk dat ik iets met Mario wilde gaan doen omdat ik daar echt mee b
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   ### Bevinding 1:
-  Ik had twee verschillende schetsen gemaakt voor de ideeen die ik had bedacht. 
+  Ik had twee verschillende schetsen gemaakt voor de ideeen die ik had bedacht. Ik was er nog over uit welk van de twee ik daadwerkelijk wilde gaan uitvoeren
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Na het feedbackgesprek met Stela
 
 
 

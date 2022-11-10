@@ -27,7 +27,7 @@ Blauw!
 
   ### De eerste versie/schets:
   <img src="readme-images/schets1.jpg" width="375px" alt="eerste versie/schets">
-
+<img src="readme-images/schets2.jpg" width="375px" alt="tweede schets">
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:

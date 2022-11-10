@@ -191,11 +191,10 @@ Dit is mijn uiteindelijke resultaat geworden! Ik ben er best wel trots op.
 - Ik heb veel geleerd van CSS en JS. Ik ben daar trots op aangezien ik altijd al veel moeite er mee heb gehad maar ik toch naar mijn idee een mooie opdracht van heb gemaakt.
 - Ik vond dit het allermoeilijkste vak wat ik tijdens heel CMD gehad heb maar ik ehb er wel echt heel veel geleerd. En ik vond het eigenlijk ook nog best leuk :)!
 - Het bijhouden van mijn bronnenlijst! Dit doe ik meestal veel te laat maar dit keer heb ik het vanaf het begin al aangepakt.
-<img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top"> 
+
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatje(s)
 - Het roteren naar links is niet gelukt. Dat vind ik erg jammer omdat ik vind dat het mijn ontwerp beter had gemaakt. 
    <img src="readme-images/rotatie.png" width="375px" alt="top">
 - Ik vind hulp vragen erg lastig, heb ik altijd al gehad. Dat is ook bij dit vak mijn allergrootste struikelblok geweest omdat ik alles zelf wilde uitzoeken. Ook wilde ik andere mensen niet van hun werk houden omdat het al moeilijk genoeg is. 

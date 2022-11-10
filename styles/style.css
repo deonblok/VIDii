@@ -117,9 +117,10 @@ article {
 }
 
 article img {
-    width: 20em;
-    height: 20em;
+    width: 25em;
+    height: 25em;
     filter: drop-shadow(0 0 .8em rgba(0, 0, 0, 0.348));
+    margin-top: 2em;
 }
 
 article img:hover {
@@ -257,66 +258,6 @@ button:active {
 
 /*********************************/
 
-
-/* .naarLinks {
-    transition: 2s;
-    transform: rotate(-36deg);
-}
-
-.naarLinks2 {
-    transition: 4s;
-    transform: rotate(-72deg);
-    animation-fill-mode: forwards;
-}
-
-.naarLinks3 {
-    transition: 4s;
-    transform: rotate(-108deg);
-    animation-fill-mode: forwards;
-}
-
-.naarLinks4 {
-    transition: 4s;
-    transform: rotate(-144deg);
-    animation-fill-mode: forwards;
-}
-
-.naarLinks5 {
-    transition: 4s;
-    transform: rotate(-180deg);
-    animation-fill-mode: forwards;
-}
-
-.naarLinks6 {
-    transition: 4s;
-    transform: rotate(-216deg);
-    animation-fill-mode: forwards;
-}
-
-.naarLinks7 {
-    transition: 4s;
-    transform: rotate(252deg);
-    animation-fill-mode: forwards;
-}
-
-.naarLinks8 {
-    transition: 4s;
-    transform: rotate(-288deg);
-    animation-fill-mode: forwards;
-}
-
-.naarLinks9 {
-    transition: 4s;
-    transform: rotate(-324deg);
-    animation-fill-mode: forwards;
-}
-
-.naarLinks10 {
-    transition: 4s;
-    transform: rotate(-360deg);
-    animation-fill-mode: forwards;
-} */
-
 .naarRechts1 {
     transition: 4s;
     transform: rotate(36deg);
@@ -386,7 +327,7 @@ button:active {
 /**********/
 
 
-/* SECTION P */
+/* SECTION P & IMG */
 
 
 /**********/

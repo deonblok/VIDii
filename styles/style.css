@@ -22,7 +22,7 @@
 body {
     margin: 0;
     background-color: var(--color-headings);
-    background-image: url("/images/background-mariocircuit.jpeg");
+    background-image: url("../images/background-mariocircuit.jpeg");
     background-size: 100%;
     background-repeat: no-repeat;
     font-family: Geneva, Verdana, sans-serif;
@@ -357,28 +357,28 @@ section:nth-of-type(2) {
 }
 
 section:nth-of-type(2) img.marioEen {
-    content: url("/images/mario1992.png");
+    content: url("../images/mario1992.png");
     filter: drop-shadow(0px 0px 17px var(--color-marioimages));
 }
 
 section:nth-of-type(2) img.marioTwee {
-    content: url("/images/mk-mario64.png");
+    content: url("../images/mk-mario64.png");
 }
 
 section:nth-of-type(2) img.marioDrie {
-    content: url("/images/mk-supercircuit.png");
+    content: url("../images/mk-supercircuit.png");
 }
 
 section:nth-of-type(2) img.marioVier {
-    content: url("/images/mk-doubledash.png");
+    content: url("../images/mk-doubledash.png");
 }
 
 section:nth-of-type(2) img.marioVijf {
-    content: url("/images/mk-ds.png");
+    content: url("../images/mk-ds.png");
 }
 
 section:nth-of-type(2) img.marioZes {
-    content: url("/images/mk-wii.png");
+    content: url("../images/mk-wii.png");
 }
 
 section:nth-of-type(2) img.marioZeven {
@@ -386,15 +386,18 @@ section:nth-of-type(2) img.marioZeven {
 }
 
 section:nth-of-type(2) img.marioAcht {
-    content: url("/images/mk-mariokart8.png");
+    content: url("../images/mk-mariokart8.png");
 }
 
+
+/* https://media.pocketgamer.com/artwork/na-ttzc/mk8d.jpg */
+
 section:nth-of-type(2) img.marioNegen {
-    content: url("/images/mk-mario8deluxe.png");
+    content: url("../images/mk-mario8deluxe.png");
 }
 
 section:nth-of-type(2) img.marioTien {
-    content: url("/images/mk-mariotour.png");
+    content: url("../images/mk-mariotour.png");
 }
 
 
@@ -415,7 +418,7 @@ section:nth-of-type(2) img.marioTien {
     }
     body {
         margin: 0;
-        background-image: url("/images/mario-8deluxegame.jpeg");
+        background-image: url("../images/mario-8deluxegame.jpeg");
         background-size: 100%;
         background-repeat: no-repeat;
         font-family: Geneva, Verdana, sans-serif;

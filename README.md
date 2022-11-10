@@ -23,7 +23,7 @@ Blauw!
 # Je plan
 
 <details open>
-  <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
+  <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging.</summary>
 
   ### De eerste versie/schets:
   <img src="readme-images/schets1.jpg" width="375px" alt="eerste versie/schets">
@@ -31,14 +31,14 @@ Blauw!
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Ik wil graag beter worden in het coderen op gebied van html, css en javascript.
+  - Ik wil meer plezier ervaren in coderen.
+  - Ik wil mijzelf uitdagen aangezien ik dit een lastige opdracht vind.
+  -Ik wil mijn kennis verbreden zodat ik meer kan coderen in de toekomst.
  
 </details>
 
-
+Ik wist al gelijk dat ik iets met Mario wilde gaan doen omdat ik daar echt mee ben opgegroeid.
 
 
 ## Voortgang/Feedback 1
@@ -47,7 +47,7 @@ Blauw!
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Ik had twee verschillende schetsen gemaakt voor de ideeen die ik had bedacht. 
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
@@ -64,6 +64,18 @@ Blauw!
 
   ### Bevinding 3:
   ...
+
+  ### Bevinding 4:
+  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+
+  ### Bevinding 5:
+  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
 
 </details>
 

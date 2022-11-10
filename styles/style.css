@@ -242,7 +242,8 @@ button:focus-visible {
 }
 
 button:active {
-    background-color: var(--color-mario);
+    background-color: var(--color-marioimages);
+    border-radius: 20%;
 }
 
 

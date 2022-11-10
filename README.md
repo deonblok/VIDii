@@ -27,7 +27,7 @@ Blauw!
 
   ### De eerste versie/schets:
   <img src="readme-images/schets1.jpg" width="375px" alt="eerste versie/schets">
-<img src="readme-images/schets2.JPG" width="375px" alt="tweede schets">
+  <img src="readme-images/schets2.JPG" width="375px" alt="tweede schets">
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
@@ -44,39 +44,41 @@ Ik wist al gelijk dat ik iets met Mario wilde gaan doen omdat ik daar echt mee b
 ## Voortgang/Feedback 1
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Mijn bevindingen + wijzigingen </summary>
 
   ### Bevinding 1:
-  Ik had twee verschillende schetsen gemaakt voor de ideeen die ik had bedacht. Ik was er nog over uit welk van de twee ik daadwerkelijk wilde gaan uitvoeren
+  Ik had twee verschillende schetsen gemaakt voor de ideeen die ik had bedacht. Ik was er nog over uit welk van de twee ik daadwerkelijk wilde gaan uitvoeren.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-  Na het feedbackgesprek met Stela
-
+  Na het feedbackgesprek met Stela had ze mij verschillende tips en inspiratie gegeven voor elk van de twee schetsen. Ik had besloten om voor de tweede schets te gaan, de mariokart baan. Als snel gign hier mee aan de slag en zocht ik op internet hoe ik het beste een baan kon maken met css. Dit omdat ik graag mijzelf wilde uitdagen.
+  <img src="readme-images/miro-feedback1.png" width="375px" alt="eerste feedbacksessie">
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Ik was druk bezig met het maken van een racebaan en zoeken hoe ik dit het beste kon gaan uitvoeren. Helaas kwam ging het mij niet lukken met css.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  Doordat ik al best wat tijd had geinvesteerd in het proberen met css een racebaan te maken had ik al wat tijd "verspild". Dit was niet gelukt en daarom ben ik verder gegaan met het maken van een racebaan in photoshop+illustrator. Zie afbeelding hieronder. Na het maken van de racebaan ging ik aan de slag met het maken van keyframe animaties voor de karts.
+  <img src="readme-images/roadmap-mario.png" width="375px" alt="inspiratie racebaan">
 
 
   ### Bevinding 3:
-  ...
+  Het maken van animaties ging in het begin erg goed! Ik had mario laten rijden van links naar rechts op het scherm. Ik begon vanaf dit moment wel te twijfelen of ik de juiste keuze gemaakt had. Ik vroeg mij af hoe ik hiermee kon gaan voldoen aan de beoordelinseisen omdat ik er weinig tot geen interactie aan kon linken. Ook had ik moeite met het verwerken van een tijdlijn in mijn ontwerp.
+
+  ### oplossing:
+  Ik ben na de les nog even gaan zitten om te gaan bedenken hoe ik dit kon gaan oplossen. Aangezien het gehele vak maar twee weken duurt moest ik in korte tijd ene oplossing gaan bedenken. Ik ben gaan brainstormen met een medestudent na de les. Zo kwam ik op het idee om iets meet een roterend stuur te doen. Ik wil kunnen interacteren met het stuur en zo een opbouwende tijdlijn creëren.
 
   ### Bevinding 4:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Ik had besloten mij te gaan focussen op de tien verschillende Mario Kart games. Ik ahd heel erg moeiete met mij focussen op het coderen en raakte snel afgeleid omdat ik  nog geen duidelijk doel voor ogen had. Iets wat ik graag heb zodat ik weet waar ik naar toe kan werken. Aangezien ik erg chaotisch ben wissel ik telkens van onderwerp, terwijl het vorige onderwerp nog niet was afgerond.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Om dit op te lossen ben ik begonnen aan kleine simpele dingen om een beetje goede moed te krijgen en verder te kunnen werken. Ik begon met zoeken naar fonts voor mijn ontwerp en deze met @font-face toe te voegen aan mijn website.
 
   ### Bevinding 5:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Ik wilde graag iets met css maken omdat mij dat heel leuk leek om eens te doen. Ik wilde mijzelf eens overtreffen. Ik begon op te zoeken hoe je een auto/kart stuur kon maken met css. Tot mijn verbazing was er helemaal niets over te vinden op een ontwerp na. Ik besloot dit helemaal uit te gaan zoeken. Elk onderdeel heb ik getest om er achter te komen wat het doet een waar het hoort. Ik heb hier heel lang aan gezeten om het te begrijpen, verschillende keren het hele internet afgezocht om te kijken wat de onderdelen betekenen. Helaas kon ik er niet achter komen. Ik besloot wel het stuur toe te voegen aan mijn css code en er mee te gaan werken.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Het zat mij dwars dat ik neit kon achterhalen wat elk onderdeel deed en waar het voor stond. Ik was al intens veel tijd kwijt hieraan en kon niet nog meer tijd investeren. Ik weet dat er in de lessen gezegd is dat je hier en daar bij onderdelen mocht aangeven dat je iets niet begreep maar ik ben er niet voor niets meebezig alles zelf te leren en te ondervinden. Dus ik besloot toch een image te gebruiken voor het stuur.
 
 </details>
 
@@ -86,7 +88,7 @@ Ik wist al gelijk dat ik iets met Mario wilde gaan doen omdat ik daar echt mee b
 ## Voortgang/Feedback 2
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Mijn bevindingen + wijzigingen </summary>
   
   ### Bevinding 1:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
@@ -211,7 +213,8 @@ Uitzoeken hoe @font-face werkt voor eigen mario fonts.
 3. https://fontmeme.com/fonts/mario-kart-ds-font/
 https://fontmeme.com/fonts/mario-kart-f2-font/
 Mario kart fonts voor styling.
-4. 
+4. https://webcode.tools/generators/css/box-shadow
+Generator voor het genereren van verschillende css tools; box-shadow, keyframes animaties, outlines etc.
 5. https://icons8.com/icons/set/mario-kart
 Cursor mario kart logo
 6. https://css-tricks.com/snippets/css/a-guide-to-flexbox/

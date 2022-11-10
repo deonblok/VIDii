@@ -26,7 +26,7 @@ Blauw!
   <summary>De eerste versie/schets van je ontwerp & je persoonlijke uitdaging</summary>
 
   ### De eerste versie/schets:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="eerste versie/schets">
+  <img src="readme-images/schets1.jpg" width="375px" alt="eerste versie/schets">
 
 
   ### Je ambitie: 
@@ -210,4 +210,6 @@ mario bg
 Voor het opfrissen van de verschillende states en hoe te gebruiken.
 9. https://www.youtube.com/watch?v=o9-Qz4iDjrM
 Youtube video over de evolutie van Mario Kart, gebruikt voor inspiratie.
+10. https://www.fontsquirrel.com/tools/webfont-generator
+Het genereren van webfonts voor @fontface
 </details>

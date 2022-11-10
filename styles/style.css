@@ -1,9 +1,14 @@
+/* https://fontmeme.com/fonts/mario-kart-ds-font/ */
+
 @font-face {
     font-family: mario-kart-ds;
     src: url(../fonts/mario-kart-ds-webfont.woff);
     font-weight: normal;
     font-style: normal;
 }
+
+
+/* https://fontmeme.com/fonts/mario-kart-f2-font/ */
 
 @font-face {
     font-family: mario-kart-f2;
@@ -12,17 +17,28 @@
     font-style: normal;
 }
 
+
+/* https://en.maisfontes.com/mario-kart-position-font-regular.font */
+
+@font-face {
+    font-family: mario-kart-position;
+    src: url(../fonts/mario-kart-position-font-regular-webfont.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
 *,
 *::after,
 *::before {
     box-sizing: border-box;
+    /* https://icons8.com/icons/set/mario-kart */
     cursor: url('../images/mario-cursor.png') 25 15, auto;
 }
 
 body {
     margin: 0;
     background-color: var(--color-headings);
-    background-image: url("../images/background-mariocircuit.jpeg");
+    background-image: url("../images/1252316.png");
     background-size: 100%;
     background-repeat: no-repeat;
     font-family: Geneva, Verdana, sans-serif;
@@ -48,6 +64,7 @@ body {
     --color-blackshadow: #00000038;
     --color-black: black;
     --color-marioimages: rgba(0, 0, 0, 0.51);
+    --color-stuurshadow: rgba(255, 255, 255, 0.185);
 }
 
 
@@ -76,20 +93,9 @@ h2 {
     font-size: 1em;
 }
 
-h3 {
-    font-family: mario-icons;
-    color: var(--color-standard);
-    font-size: 5em;
-}
-
-h4 {
-    color: var(--color-standard);
-    font-family: mario-kart-f2;
-    display: none;
-}
-
 p {
     color: var(--color-standard);
+    align-items: center;
 }
 
 
@@ -110,7 +116,7 @@ article {
 article img {
     width: 25em;
     height: 25em;
-    filter: drop-shadow(0 0 .8em rgba(0, 0, 0, 0.348));
+    filter: drop-shadow(.1em 0 .1em var(--color-stuurshadow));
     margin-top: 2em;
 }
 
@@ -316,10 +322,13 @@ button:active {
 
 section:first-of-type p {
     position: relative;
-    width: 20em;
-    height: 20em;
+    width: 25em;
+    height: 22em;
     background-color: #FF3D00;
     visibility: hidden;
+    text-align: center;
+    font-family: mario-kart-position;
+    font-size: 1.1em;
 }
 
 section:first-of-type {
@@ -333,8 +342,8 @@ section:first-of-type {
 
 section:nth-of-type(2) img {
     position: relative;
-    width: 20em;
-    height: 20em;
+    width: 25em;
+    height: 22em;
     visibility: hidden;
 }
 

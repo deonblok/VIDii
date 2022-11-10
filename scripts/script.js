@@ -55,7 +55,7 @@ deEersteMario.addEventListener("click", function() {
     console.log('holy shit hij doet het!!');
     Stuur.classList.add("naarRechts1");
     // Het aanpassen van de p tekst per draai
-    pElement.textContent = "Mario";
+    pElement.textContent = "Super Mario Kart is a kart racing video game developed and published by Nintendo for the Super Nintendo Entertainment System. The first game of the Mario Kart series, it was released in Japan and North America in 1992, and in Europe the following year in 1993.";
     marioKart1.classList.toggle("marioEen");
 })
 

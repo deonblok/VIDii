@@ -38,7 +38,7 @@
 body {
     margin: 0;
     background-color: var(--color-headings);
-    background-image: url("../images/1252316.png");
+    background-image: url("../images/background-sky.png");
     background-size: 100%;
     background-repeat: no-repeat;
     font-family: Geneva, Verdana, sans-serif;
@@ -58,13 +58,14 @@ body {
 /*********************/
 
 :root {
-    --color-headings: #da2020;
+    --color-headings: goldenrod;
     --color-standard: white;
     --color-mario: #FF3D00;
     --color-blackshadow: #00000038;
     --color-black: black;
     --color-marioimages: rgba(0, 0, 0, 0.51);
     --color-stuurshadow: rgba(255, 255, 255, 0.185);
+    --color-none: transparent;
 }
 
 
@@ -82,7 +83,8 @@ h1 {
     place-items: center;
     font-family: mario-kart-ds;
     font-size: 3em;
-    text-transform: uppercase;
+    text-transform: lowercase;
+    letter-spacing: .2em;
 }
 
 h2 {
@@ -218,7 +220,6 @@ button {
     /* left: 47vw; */
     top: 7vh;
     position: relative;
-    color: var(--color-standard);
     text-align: center;
     font-size: 1.2em;
     background: none;
@@ -226,7 +227,8 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: var(--color-black);
+    color: var(--color-standard);
+    text-shadow: 0 0 1em var(--color-black);
 }
 
 button:hover {
@@ -234,7 +236,8 @@ button:hover {
 }
 
 button:focus-visible {
-    border: dashed .3em var(--color-black);
+    border: .5em solid var(--color-none);
+    border-image: url("../images/checkerboard-pattern.jpeg") 9%;
     filter: drop-shadow(0 0 0.75rem var(--color-black));
 }
 
@@ -324,11 +327,16 @@ section:first-of-type p {
     position: relative;
     width: 25em;
     height: 22em;
-    background-color: #FF3D00;
+    background-color: var(--color-black);
     visibility: hidden;
     text-align: center;
     font-family: mario-kart-position;
     font-size: 1.1em;
+    border: 1em solid var(--color-none);
+    /* https://shop.beertjecreatief.nl/nl/detail/464376/f-f-background-black-white-blocks.htm */
+    border-image: url("../images/checkerboard-pattern.jpeg") 9%;
+    display: flex;
+    padding: .5em;
 }
 
 section:first-of-type {
@@ -367,7 +375,7 @@ section:nth-of-type(2) {
 
 section:nth-of-type(2) img.marioEen {
     content: url("../images/mario1992.png");
-    filter: drop-shadow(0px 0px 17px var(--color-marioimages));
+    filter: drop-shadow(0 0 1em var(--color-marioimages));
 }
 
 section:nth-of-type(2) img.marioTwee {
@@ -420,14 +428,18 @@ section:nth-of-type(2) img.marioTien {
 
 @media (prefers-color-scheme: dark) {
      :root {
-        --color-headings: blue;
-        --color-standard: black;
+        --color-headings: white;
+        --color-standard: white;
         --color-mario: green;
         --color-blackshadow: #00000038;
+        --color-black: black;
+        --color-marioimages: rgba(0, 0, 0, 0.51);
+        --color-stuurshadow: rgba(255, 255, 255, 0.185);
+        --color-none: transparent;
     }
     body {
         margin: 0;
-        background-image: url("../images/mario-8deluxegame.jpeg");
+        background-image: url("../images/background-rainbowroad.png");
         background-size: 100%;
         background-repeat: no-repeat;
         font-family: Geneva, Verdana, sans-serif;

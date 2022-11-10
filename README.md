@@ -198,8 +198,7 @@ Uitzoeken hoe @font-face werkt voor eigen mario fonts.
 3. https://fontmeme.com/fonts/mario-kart-ds-font/
 https://fontmeme.com/fonts/mario-kart-f2-font/
 Mario kart fonts voor styling.
-4. https://codepen.io/sarneeh/pen/GxyVVd
-Stars background animation
+4. 
 5. https://icons8.com/icons/set/mario-kart
 Cursor mario kart logo
 6. https://css-tricks.com/snippets/css/a-guide-to-flexbox/

@@ -208,4 +208,6 @@ Flexbox voor het responsive maken van de list items.
 mario bg
 8. https://medium.com/codex/css-states-pseudo-classes-522fe7b6c454
 Voor het opfrissen van de verschillende states en hoe te gebruiken.
+9. https://www.youtube.com/watch?v=o9-Qz4iDjrM
+Youtube video over de evolutie van Mario Kart, gebruikt voor inspiratie.
 </details>

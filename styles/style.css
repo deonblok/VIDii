@@ -12,16 +12,6 @@
     font-style: normal;
 }
 
-
-/* @media-query (prefers-color-scheme: dark) {
-     :root {
-        --color-headings: blue;
-        --color-standard: black;
-        --color-mario: green;
-        --color-blackshadow: #00000038;
-    }
-} */
-
 *,
 *::after,
 *::before {
@@ -57,6 +47,7 @@ body {
     --color-mario: #FF3D00;
     --color-blackshadow: #00000038;
     --color-black: black;
+    --color-marioimages: rgba(0, 0, 0, 0.51);
 }
 
 
@@ -124,37 +115,32 @@ article img {
 }
 
 article img:hover {
-    animation: rotatie-stuur 1s ease 0s 1 normal forwards;
+    animation: stuur-toeter 1s ease 0s 1 normal forwards;
 }
 
-@keyframes rotatie-stuur {
-    0%,
-    100% {
-        transform: translateX(0%);
-        transform-origin: 50% 50%;
+@keyframes stuur-toeter {
+    0% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+        transform-origin: center center;
     }
-    15% {
-        transform: translateX(-30px) rotate(-6deg);
+    10% {
+        animation-timing-function: ease-in;
+        transform: scale(0.91);
     }
-    30% {
-        transform: translateX(15px) rotate(6deg);
+    17% {
+        animation-timing-function: ease-out;
+        transform: scale(0.98);
+    }
+    33% {
+        animation-timing-function: ease-in;
+        transform: scale(0.87);
     }
     45% {
-        transform: translateX(-15px) rotate(-3.6deg);
-    }
-    60% {
-        transform: translateX(9px) rotate(2.4deg);
-    }
-    75% {
-        transform: translateX(-6px) rotate(-1.2deg);
+        animation-timing-function: ease-out;
+        transform: scale(1);
     }
 }
-
-
-/* img:first-of-type {
-    display: flex;
-    justify-content: center;
-} */
 
 
 /**********/
@@ -168,11 +154,12 @@ article img:hover {
 ol {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: -35em;
+    justify-content: space-around;
+    margin-top: -40em;
     margin-left: -2.5em;
     margin-right: 0;
     flex-wrap: wrap;
+    position: relative;
 }
 
 ol li button {
@@ -319,11 +306,6 @@ button:active {
 }
 
 
-/* li:nth-of-type(3) img.gekust {
-    content:url("https://assets.codepen.io/274456/ft-icon-princess.svg");
-} */
-
-
 /**********/
 
 
@@ -375,7 +357,8 @@ section:nth-of-type(2) {
 }
 
 section:nth-of-type(2) img.marioEen {
-    content: url("/images/mk-1992.png");
+    content: url("/images/mario1992.png");
+    filter: drop-shadow(0px 0px 17px var(--color-marioimages));
 }
 
 section:nth-of-type(2) img.marioTwee {
@@ -383,11 +366,11 @@ section:nth-of-type(2) img.marioTwee {
 }
 
 section:nth-of-type(2) img.marioDrie {
-    content: url("/images/mk-doubledash.png");
+    content: url("/images/mk-supercircuit.png");
 }
 
 section:nth-of-type(2) img.marioVier {
-    content: url("/images/mk-supercircuit.jpeg");
+    content: url("/images/mk-doubledash.png");
 }
 
 section:nth-of-type(2) img.marioVijf {
@@ -395,15 +378,15 @@ section:nth-of-type(2) img.marioVijf {
 }
 
 section:nth-of-type(2) img.marioZes {
-    content: url("/images/mk-wii.jpeg");
+    content: url("/images/mk-wii.png");
 }
 
 section:nth-of-type(2) img.marioZeven {
-    content: url("../images/mariotest.png");
+    content: url("/images/mk-mariokart7.png");
 }
 
 section:nth-of-type(2) img.marioAcht {
-    content: url("../images/mariotest.png");
+    content: url("/images/mk-mariokart8.png");
 }
 
 section:nth-of-type(2) img.marioNegen {
@@ -422,3 +405,19 @@ section:nth-of-type(2) img.marioTien {
 
 
 /*************/
+
+@media (prefers-color-scheme: dark) {
+     :root {
+        --color-headings: blue;
+        --color-standard: black;
+        --color-mario: green;
+        --color-blackshadow: #00000038;
+    }
+    body {
+        margin: 0;
+        background-image: url("/images/mario-8deluxegame.jpeg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        font-family: Geneva, Verdana, sans-serif;
+    }
+}

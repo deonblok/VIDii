@@ -1,22 +1,6 @@
 // JavaScript Document
 console.log("Howdy!");
 
-// var deButton = document.querySelector('button:first-of-type');
-// var deTweedeButton = document.querySelector('button:nth-of-type(2)');
-// var imgStuur = document.querySelector('article img');
-// var stuurDraai = 0
-
-// function stuurLinks() {
-//     imgStuur.classList.add("naarLinks")
-// }
-// deTweedeButton.addEventListener("click", stuurLinks);
-
-
-// function stuurRechts() {
-//     imgStuur.classList.add("naarRechts")
-// }
-// deButton.addEventListener("click", stuurRechts);
-
 
 // Variabelen voor elke button image
 var deEersteMario = document.querySelector('ol li:first-of-type button img');
@@ -50,24 +34,19 @@ var marioKart10 = document.querySelector("section:nth-of-type(2) img");
 
 
 deEersteMario.addEventListener("click", function() {
-    sectionImage.classList.toggle("activate");
-    sectionP.classList.toggle("activate");
+    sectionImage.classList.add("activate");
+    sectionP.classList.add("activate");
     console.log('hij doet het!!');
     Stuur.classList.add("naarRechts1");
     // Het aanpassen van de p tekst per draai
     // https://en.wikipedia.org/wiki/Super_Mario_Kart
     pElement.textContent = "Super Mario Kart is a kart racing video game developed and published by Nintendo for the Super Nintendo Entertainment System. The first game of the Mario Kart series, it was released in Japan and North America in 1992, and in Europe the following year in 1993.";
-    marioKart1.classList.toggle("marioEen");
+    marioKart1.classList.add("marioEen");
+    marioKart1.classList.remove("marioTwee", "marioDrie", "marioVier", "marioVijf", "marioZes", "marioZeven", "marioAcht", "marioNegen", "marioTien");
 })
 
 
-// deEersteMario.addEventListener("click", eersteDraai);
-// // Functions voor het draaien van het stuur per uitgebrachte Mario Kart game
-// function eersteDraai() {
-//     Stuur.classList.add("naarRechts1");
-//     // Het aanpassen van de p tekst per draai
-//     pElement.textContent = "Mario";
-// }
+
 
 deTweedeMario.addEventListener("click", tweedeDraai);
 
@@ -76,7 +55,10 @@ function tweedeDraai() {
     Stuur.classList.add("naarRechts2");
     // https://en.wikipedia.org/wiki/Mario_Kart_64
     pElement.textContent = "Mario Kart 64 is a kart racing video game developed and published by Nintendo for the Nintendo 64. It was also released for the iQue Player in China in 2003. The game is the second main entry in the Mario Kart series and is the successor to Super Mario Kart (1992) for the Super Nintendo Entertainment System. The game was first released in Japan on December 14, 1996 and in the United Kingdom on June 24, 1997.";
-    marioKart2.classList.toggle("marioTwee");
+    marioKart2.classList.add("marioTwee");
+    marioKart2.classList.remove("marioEen");
+    marioKart1.classList.remove("marioTwee", "marioDrie", "marioVier", "marioVijf", "marioZes", "marioZeven", "marioAcht", "marioNegen", "marioTien");
+
 }
 
 deDerdeMario.addEventListener("click", derdeDraai);

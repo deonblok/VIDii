@@ -39,9 +39,12 @@ body {
     margin: 0;
     background-color: var(--color-headings);
     background-image: url("../images/background-sky.png");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     font-family: Geneva, Verdana, sans-serif;
+    background-position: center bottom;
+    height: 100vh;
+    overflow: hidden;
 }
 
 */ button:not([disabled]) {
@@ -163,11 +166,16 @@ ol {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: -40em;
+    /* margin-top: -40em;
     margin-left: -2.5em;
-    margin-right: 0;
+    margin-right: 0; */
     flex-wrap: wrap;
-    position: relative;
+    position: fixed;
+    bottom: 1em;
+    left: 1em;
+    right: 1em;
+    margin: 0;
+    padding: 0;
 }
 
 ol li button {
@@ -179,8 +187,8 @@ ol li {
 }
 
 ol li img {
-    width: 8em;
-    height: 8em;
+    width: 8vw;
+    aspect-ratio: 1/1;
 }
 
 ol li button img:hover {
@@ -218,7 +226,6 @@ ol li button img:hover {
 
 button {
     /* left: 47vw; */
-    top: 7vh;
     position: relative;
     text-align: center;
     font-size: 1.2em;

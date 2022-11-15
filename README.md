@@ -110,7 +110,7 @@ Ik begon alweer druk te maken om de javascript omdat ik html en css al lastig vi
   ### Bevinding 3:
   Ik had na wat gedoe mijn stuur in mijn code gekregen en had twee buttons gemaakt een voor links en een voor rechts. Nu moest ik beginnen aan iets wat ik lastig vind. Javascript! Ik heb eerste allerlei variablen aangemaakt voor mijn button, het stuur en het draaien van het stuur. In de les hadden we "geleerd" hoe je functies aan moest maken. Ik heb alle stappen van de les nagedaan en veranderd in mijn eigen code. Het werkte nog niet hoe ik wilde.
   #### oplossing:
-  Na de les ben ik in de medialounge verder gaan werken en heb ik hulp gevraagd aan Jeffrey. Het kwam er op neer dat ik het beste if else statements kon toevoegen.. Ik heb veel er aan geprobeerd maar werkte niet zoals ik wilde. Ik moest iets anders verzinnen.
+  Na de les ben ik in de medialounge verder gaan werken en heb ik hulp gevraagd aan Jeffrey. Het kwam er op neer dat ik het beste if else statements kon toevoegen... Ik heb veel er aan geprobeerd maar werkte niet zoals ik wilde. Ik moest iets anders verzinnen.
 
 
   ### Bevinding 4:
@@ -138,10 +138,10 @@ Ik bedacht mij om door op elk list item te klikken het stuur te laten draaien. D
   <summary>Mijn bevindingen + wijzigingen</summary>
   
   ### Bevinding 1:
-Afebeeldingen zoeken was lastig! Dat had ik echt onderschat. Ik moest veel verschillende mario's uot verschillnde jaren in zijn kart hebben. Veel afbeeldingen hadden achtergrondne maar die wilde ik niet, ik wilde elke afbeelding met een transparante achtergrond.
+Afbeeldingen zoeken was lastig! Dat had ik echt onderschat. Ik moest veel verschillende mario's uit verschillnde jaren in zijn kart hebben. Veel afbeeldingen hadden achtergrondne maar die wilde ik niet, ik wilde elke afbeelding met een transparante achtergrond.
 
   #### oplossing:
-  Ik kwam op een gegeven moment op de IGN game pagina en op meerdere mario fandoms(ik wist niet dat dat bestond) Hier had ik voldoende afbeeldingen kunnen vinden. Alle afbeelingen met achtergrond ben ik gaan bewerken om de achtergrond te verwijderen en een aantal afbeeldingen heb ik de kwaliteit wat van verbeterd omdat ik deze matig vond.
+  Ik kwam op een gegeven moment op de IGN game pagina en op meerdere mario fandoms(ik wist niet dat dit bestond) Hier had ik voldoende afbeeldingen kunnen vinden. Alle afbeelingen met achtergrond ben ik gaan bewerken om de achtergrond te verwijderen en een aantal afbeeldingen heb ik de kwaliteit wat van verbeterd omdat ik deze matig vond.
 
 
 
@@ -154,10 +154,10 @@ Ik heb hulp gevraagd aan een medestudent en die had heel toevallig deze functie 
 
 
   ### Bevinding 3:
-  Afbeeldingen werken niet in github. Ik had allerlei problemen met mijn pagina in GitHub. Mijn afbeelingne werden neit ingeladen en een enkeling wel. Ik vroeg hulp aan medestudenten.
+  Afbeeldingen werken niet in github. Ik had allerlei problemen met mijn pagina in GitHub. Mijn afbeeldingene werden niet ingeladen en een enkeling wel. Ik vroeg hulp aan medestudenten.
 
   #### oplossing:
-  Ik was vergeten in mijn CSS de ../ voor mijn afbeelingen toe te voegen waardoor het dus net werkte. Ik heb overal .// aan toegevoegd en toen deden mijn afbeeldingen het weer.
+  Ik was vergeten in mijn CSS de ../ voor mijn afbeelingen toe te voegen waardoor het dus net werkte. Ik heb overal ../ aan toegevoegd en toen deden mijn afbeeldingen het weer.
 
   ### Bevinding 4:
   Het responsive maken van mijn pagina ben ik meebezig geweest. Ik wilde al mijn elementen laten meeschalen zodra ik heb scherm ging verkleinen. Mijn list schaalde hele lelijk mee dus hier moest ik een oplossing voor verzinnen. Ik moest nog wel heel wat dingen doen voor de deadline dus ik kon er niet te veel tijd in investeren.

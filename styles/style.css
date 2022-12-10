@@ -107,56 +107,6 @@ p {
 /**********/
 
 
-/* IMAGES */
-
-
-/**********/
-
-article {
-    display: grid;
-    place-content: center;
-    position: relative;
-}
-
-article img {
-    width: 25em;
-    height: 25em;
-    filter: drop-shadow(.1em 0 .1em var(--color-stuurshadow));
-    margin-top: 2em;
-}
-
-article img:hover {
-    animation: stuur-toeter 1s ease 0s 1 normal forwards;
-}
-
-@keyframes stuur-toeter {
-    0% {
-        animation-timing-function: ease-out;
-        transform: scale(1);
-        transform-origin: center center;
-    }
-    10% {
-        animation-timing-function: ease-in;
-        transform: scale(0.91);
-    }
-    17% {
-        animation-timing-function: ease-out;
-        transform: scale(0.98);
-    }
-    33% {
-        animation-timing-function: ease-in;
-        transform: scale(0.87);
-    }
-    45% {
-        animation-timing-function: ease-out;
-        transform: scale(1);
-    }
-}
-
-
-/**********/
-
-
 /* LIST */
 
 
@@ -166,9 +116,6 @@ ol {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* margin-top: -40em;
-    margin-left: -2.5em;
-    margin-right: 0; */
     flex-wrap: wrap;
     position: fixed;
     bottom: 1em;
@@ -251,6 +198,7 @@ button:focus-visible {
 button:active {
     background-color: var(--color-marioimages);
     border-radius: 20%;
+    transform: scale(.9);
 }
 
 
@@ -270,7 +218,7 @@ button:active {
 
 .naarRechts2 {
     transition: 4s;
-    transform: rotate(-36deg);
+    transform: rotate(72deg);
     animation-fill-mode: forwards;
 }
 
@@ -331,8 +279,47 @@ button:active {
 
 /**********/
 
-section:first-of-type p {
-    position: relative;
+section:first-of-type {
+    display: flex;
+    place-content: center;
+}
+
+section:first-of-type img {
+    width: 25em;
+    height: 25em;
+    filter: drop-shadow(.1em 0 .1em var(--color-stuurshadow));
+    margin-top: 2em;
+}
+
+section:first-of-type img:hover {
+    animation: stuur-toeter 1s ease 0s 1 normal forwards;
+}
+
+@keyframes stuur-toeter {
+    0% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+        transform-origin: center center;
+    }
+    10% {
+        animation-timing-function: ease-in;
+        transform: scale(0.91);
+    }
+    17% {
+        animation-timing-function: ease-out;
+        transform: scale(0.98);
+    }
+    33% {
+        animation-timing-function: ease-in;
+        transform: scale(0.87);
+    }
+    45% {
+        animation-timing-function: ease-out;
+        transform: scale(1);
+    }
+}
+
+section:nth-of-type(2) p {
     width: 25em;
     height: 22em;
     background-color: var(--color-black);
@@ -343,85 +330,81 @@ section:first-of-type p {
     border: 1em solid var(--color-none);
     /* https://shop.beertjecreatief.nl/nl/detail/464376/f-f-background-black-white-blocks.htm */
     border-image: url("../images/checkerboard-pattern.jpeg") 9%;
-    display: flex;
     padding: .5em;
 }
 
-section:first-of-type {
+section:nth-of-type(2) {
     display: flex;
     justify-content: flex-end;
-    right: 4em;
+    right: 3em;
     position: relative;
     top: -23em;
     visibility: hidden;
 }
 
-section:nth-of-type(2) img {
+section:nth-of-type(3) img {
     position: relative;
     width: 25em;
     height: 22em;
     visibility: hidden;
 }
 
-section:nth-of-type(2) img.activate {
+section:nth-of-type(3) img.activate {
     visibility: visible;
 }
 
-section:first-of-type p.activate {
+section:nth-of-type(2) p.activate {
     visibility: visible;
 }
 
-section:nth-of-type(2) {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    left: 4em;
+section:nth-of-type(3) {
+    left: 3em;
     position: relative;
     top: -45em;
     visibility: hidden;
 }
 
-section:nth-of-type(2) img.marioEen {
+section:nth-of-type(3) img.marioEen {
     content: url("../images/mario1992.png");
     filter: drop-shadow(0 0 1em var(--color-marioimages));
 }
 
-section:nth-of-type(2) img.marioTwee {
+section:nth-of-type(3) img.marioTwee {
     content: url("../images/mk-mario64.png");
 }
 
-section:nth-of-type(2) img.marioDrie {
+section:nth-of-type(3) img.marioDrie {
     content: url("../images/mk-supercircuit.png");
 }
 
-section:nth-of-type(2) img.marioVier {
+section:nth-of-type(3) img.marioVier {
     content: url("../images/mk-doubledash.png");
 }
 
-section:nth-of-type(2) img.marioVijf {
+section:nth-of-type(3) img.marioVijf {
     content: url("../images/mk-ds.png");
 }
 
-section:nth-of-type(2) img.marioZes {
+section:nth-of-type(3) img.marioZes {
     content: url("../images/mk-wii.png");
 }
 
-section:nth-of-type(2) img.marioZeven {
+section:nth-of-type(3) img.marioZeven {
     content: url("../images/mk-mariokart7.png");
 }
 
-section:nth-of-type(2) img.marioAcht {
+section:nth-of-type(3) img.marioAcht {
     content: url("../images/mk-mariokart8.png");
 }
 
 
 /* https://media.pocketgamer.com/artwork/na-ttzc/mk8d.jpg */
 
-section:nth-of-type(2) img.marioNegen {
+section:nth-of-type(3) img.marioNegen {
     content: url("../images/mk-mario8deluxe.png");
 }
 
-section:nth-of-type(2) img.marioTien {
+section:nth-of-type(3) img.marioTien {
     content: url("../images/mk-mariotour.png");
 }
 
@@ -455,10 +438,46 @@ section:nth-of-type(2) img.marioTien {
 }
 
 @media (max-width:89em) {
-    section:nth-of-type(2) img {
+    section:nth-of-type(3) img {
         position: relative;
-        width: 18em;
-        height: 15em;
+        max-width: 18em;
+        max-height: 15em;
         visibility: hidden;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section:nth-of-type(3) img.activate {
+        visibility: visible;
+    }
+    section:nth-of-type(2) p.activate {
+        visibility: visible;
+    }
+    section:nth-of-type(2) p {
+        position: relative;
+        max-width: 18em;
+        min-height: 18em;
+        background-color: var(--color-black);
+        visibility: hidden;
+        text-align: center;
+        font-family: mario-kart-position;
+        font-size: 1em;
+        border: 1em solid var(--color-none);
+        /* https://shop.beertjecreatief.nl/nl/detail/464376/f-f-background-black-white-blocks.htm */
+        border-image: url("../images/checkerboard-pattern.jpeg") 9%;
+        display: flex;
+        padding: .5em;
+    }
+    section:first-of-type {
+        display: grid;
+        place-content: center;
+        position: relative;
+    }
+    section:first-of-type img {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
     }
 }

@@ -14,23 +14,23 @@ var deAchtsteMario = document.querySelector('ol li:nth-of-type(8) button img');
 var deNegendeMario = document.querySelector('ol li:nth-of-type(9) button img');
 var deTiendeMario = document.querySelector('ol li:nth-of-type(10) button img');
 
-var pElement = document.querySelector("section:first-of-type p")
+var pElement = document.querySelector("section:nth-of-type(2) p")
 
-var sectionImage = document.querySelector("section:nth-of-type(2) img")
-var sectionP = document.querySelector("section:first-of-type p")
+var sectionImage = document.querySelector("section:nth-of-type(3) img")
+var sectionP = document.querySelector("section:nth-of-type(2) p")
 
-var Stuur = document.querySelector("article img");
+var Stuur = document.querySelector("section:first-of-type img");
 
-var marioKart1 = document.querySelector("section:nth-of-type(2) img");
-var marioKart2 = document.querySelector("section:nth-of-type(2) img");
-var marioKart3 = document.querySelector("section:nth-of-type(2) img");
-var marioKart4 = document.querySelector("section:nth-of-type(2) img");
-var marioKart5 = document.querySelector("section:nth-of-type(2) img");
-var marioKart6 = document.querySelector("section:nth-of-type(2) img");
-var marioKart7 = document.querySelector("section:nth-of-type(2) img");
-var marioKart8 = document.querySelector("section:nth-of-type(2) img");
-var marioKart9 = document.querySelector("section:nth-of-type(2) img");
-var marioKart10 = document.querySelector("section:nth-of-type(2) img");
+var marioKart1 = document.querySelector("section:nth-of-type(3) img");
+var marioKart2 = document.querySelector("section:nth-of-type(3) img");
+var marioKart3 = document.querySelector("section:nth-of-type(3) img");
+var marioKart4 = document.querySelector("section:nth-of-type(3) img");
+var marioKart5 = document.querySelector("section:nth-of-type(3) img");
+var marioKart6 = document.querySelector("section:nth-of-type(3) img");
+var marioKart7 = document.querySelector("section:nth-of-type(3) img");
+var marioKart8 = document.querySelector("section:nth-of-type(3) img");
+var marioKart9 = document.querySelector("section:nth-of-type(3) img");
+var marioKart10 = document.querySelector("section:nth-of-type(3) img");
 
 
 deEersteMario.addEventListener("click", function() {
@@ -55,7 +55,7 @@ function tweedeDraai() {
     sectionImage.classList.add("activate");
     sectionP.classList.add("activate");
     console.log('hij doet het!!2');
-    var Stuur = document.querySelector("article img");
+    var Stuur = document.querySelector("section:first-of-type img");
     Stuur.classList.add("naarRechts2");
     Stuur.classList.remove("naarRechts1", "naarRechts3", "naarRechts4", "naarRechts5", "naarRechts6", "naarRechts7", "naarRechts8", "naarRechts9", "naarRechts10");
     // https://en.wikipedia.org/wiki/Mario_Kart_64
@@ -71,7 +71,7 @@ function derdeDraai() {
     sectionImage.classList.add("activate");
     sectionP.classList.add("activate");
     console.log('hij doet het!! 3');
-    var Stuur = document.querySelector("article img");
+    var Stuur = document.querySelector("section:first-of-type img");
     Stuur.classList.add("naarRechts3");
     Stuur.classList.remove("naarRechts1", "naarRechts2", "naarRechts4", "naarRechts5", "naarRechts6", "naarRechts7", "naarRechts8", "naarRechts9", "naarRechts10");
     // https://en.wikipedia.org/wiki/Mario_Kart:_Super_Circuit
@@ -87,7 +87,7 @@ function vierdeDraai() {
     sectionImage.classList.add("activate");
     sectionP.classList.add("activate");
     console.log('hij doet het!!4');
-    var Stuur = document.querySelector("article img");
+    var Stuur = document.querySelector("section:first-of-type img");
     Stuur.classList.add("naarRechts4");
     Stuur.classList.remove("naarRechts1", "naarRechts3", "naarRechts2", "naarRechts5", "naarRechts6", "naarRechts7", "naarRechts8", "naarRechts9", "naarRechts10");
     // https://en.wikipedia.org/wiki/Mario_Kart:_Double_Dash
@@ -104,7 +104,7 @@ function vijfdeDraai() {
     sectionImage.classList.add("activate");
     sectionP.classList.add("activate");
     console.log('hij doet het!!5');
-    var Stuur = document.querySelector("article img");
+    var Stuur = document.querySelector("section:first-of-type img");
     Stuur.classList.add("naarRechts5");
     Stuur.classList.remove("naarRechts1", "naarRechts3", "naarRechts4", "naarRechts2", "naarRechts6", "naarRechts7", "naarRechts8", "naarRechts9", "naarRechts10");
     // https://en.wikipedia.org/wiki/Mario_Kart_DS
@@ -120,7 +120,7 @@ function zesdeDraai() {
     sectionImage.classList.add("activate");
     sectionP.classList.add("activate");
     console.log('hij doet het!!6');
-    var Stuur = document.querySelector("article img");
+    var Stuur = document.querySelector("section:first-of-type img");
     Stuur.classList.add("naarRechts6");
     Stuur.classList.remove("naarRechts1", "naarRechts3", "naarRechts4", "naarRechts5", "naarRechts2", "naarRechts7", "naarRechts8", "naarRechts9", "naarRechts10");
     // https://en.wikipedia.org/wiki/Mario_Kart_Wii
@@ -136,7 +136,7 @@ function zevendeDraai() {
     sectionImage.classList.add("activate");
     sectionP.classList.add("activate");
     console.log('hij doet het!!7');
-    var Stuur = document.querySelector("article img");
+    var Stuur = document.querySelector("section:first-of-type img");
     Stuur.classList.add("naarRechts7");
     Stuur.classList.remove("naarRechts1", "naarRechts3", "naarRechts4", "naarRechts5", "naarRechts6", "naarRechts2", "naarRechts8", "naarRechts9", "naarRechts10");
     // 
@@ -152,7 +152,7 @@ function achtsteDraai() {
     sectionImage.classList.add("activate");
     sectionP.classList.add("activate");
     console.log('hij doet het!!8');
-    var Stuur = document.querySelector("article img");
+    var Stuur = document.querySelector("section:first-of-type img");
     Stuur.classList.add("naarRechts8");
     Stuur.classList.remove("naarRechts1", "naarRechts3", "naarRechts4", "naarRechts5", "naarRechts6", "naarRechts7", "naarRechts2", "naarRechts9", "naarRechts10");
     // https://en.wikipedia.org/wiki/Mario_Kart_8
@@ -168,7 +168,7 @@ function negendeDraai() {
     sectionImage.classList.add("activate");
     sectionP.classList.add("activate");
     console.log('hij doet het!!9');
-    var Stuur = document.querySelector("article img");
+    var Stuur = document.querySelector("section:first-of-type img");
     Stuur.classList.add("naarRechts9");
     Stuur.classList.remove("naarRechts1", "naarRechts3", "naarRechts4", "naarRechts5", "naarRechts6", "naarRechts7", "naarRechts8", "naarRechts2", "naarRechts10");
     // https://en.wikipedia.org/wiki/Mario_Kart_8
@@ -184,7 +184,7 @@ function tiendeDraai() {
     sectionImage.classList.add("activate");
     sectionP.classList.add("activate");
     console.log('hij doet het!!10');
-    var Stuur = document.querySelector("article img");
+    var Stuur = document.querySelector("section:first-of-type img");
     Stuur.classList.add("naarRechts10");
     Stuur.classList.remove("naarRechts1", "naarRechts3", "naarRechts4", "naarRechts5", "naarRechts6", "naarRechts7", "naarRechts8", "naarRechts9", "naarRechts2");
     // https://en.wikipedia.org/wiki/Mario_Kart_Tour

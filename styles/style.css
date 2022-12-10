@@ -270,7 +270,7 @@ button:active {
 
 .naarRechts2 {
     transition: 4s;
-    transform: rotate(72deg);
+    transform: rotate(-36deg);
     animation-fill-mode: forwards;
 }
 
@@ -451,5 +451,14 @@ section:nth-of-type(2) img.marioTien {
         background-size: 100%;
         background-repeat: no-repeat;
         font-family: Geneva, Verdana, sans-serif;
+    }
+}
+
+@media (max-width:89em) {
+    section:nth-of-type(2) img {
+        position: relative;
+        width: 18em;
+        height: 15em;
+        visibility: hidden;
     }
 }

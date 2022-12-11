@@ -35,6 +35,9 @@ var marioKart10 = document.querySelector("section:nth-of-type(3) img");
 var Jaartal = document.querySelector("h3");
 var h3Element = document.querySelector("h3");
 
+
+
+
 deEersteMario.addEventListener("click", function() {
     sectionImage.classList.add("activate");
     sectionP.classList.add("activate");
@@ -48,6 +51,7 @@ deEersteMario.addEventListener("click", function() {
     marioKart1.classList.remove("marioTwee", "marioDrie", "marioVier", "marioVijf", "marioZes", "marioZeven", "marioAcht", "marioNegen", "marioTien");
     Jaartal.textContent = "1992";
     h3Element.classList.add("activate");
+
 })
 
 
@@ -112,7 +116,7 @@ function vijfdeDraai() {
     Stuur.classList.add("naarRechts5");
     Stuur.classList.remove("naarRechts1", "naarRechts3", "naarRechts4", "naarRechts2", "naarRechts6", "naarRechts7", "naarRechts8", "naarRechts9", "naarRechts10");
     // https://en.wikipedia.org/wiki/Mario_Kart_DS
-    pElement.textContent = "Mario Kart DS is a 2005 kart racing video game developed by Nintendo EAD Group No. 1 and published by Nintendo. It was released for the Nintendo DS handheld game console in November 2005 in North America, Europe, and Australia. The game is the fifth main entry in the Mario Kart series of video games, and the first to be playable via the Nintendo Wi-Fi Connection online service; the service has since been terminated, along with other games playable via the service. Like the other games in the series, Mario Kart DS features characters from the Mario series, and pits them against each other as they race in karts on tracks based on locations in the Mario series.";
+    pElement.textContent = "Mario Kart DS is a 2005 kart racing video game developed by Nintendo EAD Group No. 1 and published by Nintendo. It was released for the Nintendo DS handheld game console in November 2005 in North America, Europe, and Australia. The game is the fifth main entry in the Mario Kart series of video games, and the first to be playable via the Nintendo Wi-Fi Connection online service; the service has since been terminated, along with other games playable via the service.";
     marioKart5.classList.add("marioVijf");
     marioKart5.classList.remove("marioEen", "marioDrie", "marioVier", "marioTwee", "marioZes", "marioZeven", "marioAcht", "marioNegen", "marioTien");
     Jaartal.textContent = "2005";
@@ -144,7 +148,7 @@ function zevendeDraai() {
     Stuur.classList.add("naarRechts7");
     Stuur.classList.remove("naarRechts1", "naarRechts3", "naarRechts4", "naarRechts5", "naarRechts6", "naarRechts2", "naarRechts8", "naarRechts9", "naarRechts10");
     // 
-    pElement.textContent = "Mario Kart 7 is a kart racing video game developed by Nintendo EAD in cooperation with Retro Studios and published by Nintendo for the Nintendo 3DS in 2011. As with the previous games in the Mario Kart series, players participate in racing on various Mario-themed tracks, playing as one of seventeen different Mario characters. New additions to the game include hang-gliding attachments for karts, the ability to drive underwater, the ability to drive in first person, and the ability to fully customize the vehicles' build. The game supports online multiplayer for up to eight players.";
+    pElement.textContent = "Mario Kart 7 is a kart racing video game developed by Nintendo EAD in cooperation with Retro Studios and published by Nintendo for the Nintendo 3DS in 2011. As with the previous games in the Mario Kart series, players participate in racing on various Mario-themed tracks, playing as one of seventeen different Mario characters. New additions to the game include hang-gliding attachments for karts, the ability to drive underwater and the ability to drive in first person.";
     marioKart7.classList.add("marioZeven");
     marioKart7.classList.remove("marioEen", "marioDrie", "marioVier", "marioVijf", "marioZes", "marioTwee", "marioAcht", "marioNegen", "marioTien");
     Jaartal.textContent = "2011";
@@ -160,7 +164,7 @@ function achtsteDraai() {
     Stuur.classList.add("naarRechts8");
     Stuur.classList.remove("naarRechts1", "naarRechts3", "naarRechts4", "naarRechts5", "naarRechts6", "naarRechts7", "naarRechts2", "naarRechts9", "naarRechts10");
     // https://en.wikipedia.org/wiki/Mario_Kart_8
-    pElement.textContent = "Mario Kart 8 is a kart racing video game developed and published by Nintendo for the Wii U in May 2014. Mario Kart 8 introduces anti-gravity driving on walls or ceilings, and allows players to bump into each other for a short boost. It has single-player and multiplayer modes, including online via the Nintendo Network. Critics praised its new additions, tracks, graphics, gameplay, but criticized its limited battle mode. It is the best-selling Wii U game, with more than eight million copies sold worldwide. Nintendo continued to release patches and downloadable content, including additional characters, vehicles, and tracks.";
+    pElement.textContent = "Mario Kart 8 is a kart racing video game developed and published by Nintendo for the Wii U in May 2014. Mario Kart 8 introduces anti-gravity driving on walls or ceilings, and allows players to bump into each other for a short boost. It has single-player and multiplayer modes, including online via the Nintendo Network. Critics praised its new additions, tracks, graphics, gameplay, but criticized its limited battle mode. It is the best-selling Wii U game.";
     marioKart8.classList.add("marioAcht");
     marioKart8.classList.remove("marioEen", "marioDrie", "marioVier", "marioVijf", "marioZes", "marioZeven", "marioTwee", "marioNegen", "marioTien");
     Jaartal.textContent = "2014";
@@ -192,7 +196,7 @@ function tiendeDraai() {
     Stuur.classList.add("naarRechts10");
     Stuur.classList.remove("naarRechts1", "naarRechts3", "naarRechts4", "naarRechts5", "naarRechts6", "naarRechts7", "naarRechts8", "naarRechts9", "naarRechts2");
     // https://en.wikipedia.org/wiki/Mario_Kart_Tour
-    pElement.textContent = "Mario Kart Tour is a 2019 kart racing mobile game, the fourteenth in the franchise in the Mario Kart series, developed by Nintendo EPD and published by Nintendo for iOS and Android devices. The game was announced in January 2018 and was released on September 25, 2019, on Apple App Store and Google Play. This game features biweekly, downloadable themed tours with different cups, each of which has three courses and a bonus challenge. In addition to courses which have already appeared in the Mario Kart series, Mario Kart Tour includes courses located in world cities (New York, Tokyo, Paris, London, Los Angeles, Berlin, Sydney, Amsterdam, and Bangkok).";
+    pElement.textContent = "Mario Kart Tour is a 2019 kart racing mobile game, the fourteenth in the franchise in the Mario Kart series, developed by Nintendo EPD and published by Nintendo for iOS and Android devices. The game was announced in January 2018 and was released on September 25, 2019, on Apple App Store and Google Play. This game features biweekly, downloadable themed tours with different cups, each of which has three courses and a bonus challenge. In addition to courses which have already appeared in the Mario Kart series, Mario Kart Tour includes courses located in world cities.";
     marioKart10.classList.add("marioTien");
     marioKart10.classList.remove("marioEen", "marioDrie", "marioVier", "marioVijf", "marioZes", "marioZeven", "marioAcht", "marioNegen", "marioTwee");
     Jaartal.textContent = "2019";

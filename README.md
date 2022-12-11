@@ -204,10 +204,10 @@ Dit is mijn uiteindelijke resultaat geworden! Ik ben er best wel trots op.
 
 ## 2e poging
 <details open>
-Tijdens mijn eerste beoordeling heb ik meerdere verbeterpunten gekregen
+<summary>Werken aan de herkansing</summary>
+Tijdens mijn eerste beoordeling heb ik meerdere verbeterpunten gekregen:
 - Ik had beter mijn comments kunnen bijhouden in mijn code. Ik heb later wat meer comments moeten toevoegen, terwijl ik het eerder had kunnen doen.
 
-</summary>
 
 </details>
 

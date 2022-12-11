@@ -102,7 +102,7 @@ h3 {
     color: var(--color-standard);
     background-color: var(--color-mario);
     font-family: mario-kart-position;
-    font-size: 2em;
+    font-size: 1.7em;
     text-decoration: underline;
     visibility: hidden;
     position: relative;
@@ -345,7 +345,7 @@ section:first-of-type img:hover {
 
 section:nth-of-type(2) p {
     width: 25em;
-    height: 22em;
+    /* height: 22em; */
     background-color: var(--color-black);
     visibility: hidden;
     text-align: center;
@@ -367,7 +367,6 @@ section:nth-of-type(2) {
 }
 
 section:nth-of-type(3) img {
-    position: relative;
     width: 25em;
     height: 22em;
     visibility: hidden;

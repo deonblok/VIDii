@@ -98,6 +98,25 @@ h2 {
     font-size: 1em;
 }
 
+h3 {
+    color: var(--color-standard);
+    background-color: var(--color-mario);
+    font-family: mario-kart-position;
+    font-size: 2em;
+    text-decoration: underline;
+    visibility: hidden;
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: .5em;
+    border-radius: 10%;
+}
+
+h3.activate {
+    visibility: visible;
+}
+
 p {
     color: var(--color-standard);
     align-items: center;
@@ -127,6 +146,10 @@ ol {
 
 ol li button {
     font-family: mario-kart-ds;
+}
+
+ol li button:active {
+    color: var(--color-mario);
 }
 
 ol li {
@@ -199,6 +222,7 @@ button:active {
     background-color: var(--color-marioimages);
     border-radius: 20%;
     transform: scale(.9);
+    text-decoration: underline;
 }
 
 

@@ -202,6 +202,14 @@ Dit is mijn uiteindelijke resultaat geworden! Ik ben er best wel trots op.
 - Ik had beter mijn comments kunnen bijhouden in mijn code. Ik heb later wat meer comments moeten toevoegen, terwijl ik het eerder had kunnen doen.
 </details>
 
+## 2e poging
+<details open>
+Tijdens mijn eerste beoordeling heb ik meerdere verbeterpunten gekregen
+- Ik had beter mijn comments kunnen bijhouden in mijn code. Ik heb later wat meer comments moeten toevoegen, terwijl ik het eerder had kunnen doen.
+
+</summary>
+
+</details>
 
 ## Bronnenlijst
 
@@ -231,4 +239,6 @@ Voor het opfrissen van de verschillende states en hoe te gebruiken.
 Youtube video over de evolutie van Mario Kart, gebruikt voor inspiratie.
 10. https://www.fontsquirrel.com/tools/webfont-generator
 Het genereren van webfonts voor @fontface
+11. https://css-tricks.com/forums/topic/button-transform-scale/
+Transform voor op de button.
 </details>

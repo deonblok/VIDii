@@ -196,7 +196,7 @@ function tiendeDraai() {
     Stuur.classList.add("naarRechts10");
     Stuur.classList.remove("naarRechts1", "naarRechts3", "naarRechts4", "naarRechts5", "naarRechts6", "naarRechts7", "naarRechts8", "naarRechts9", "naarRechts2");
     // https://en.wikipedia.org/wiki/Mario_Kart_Tour
-    pElement.textContent = "Mario Kart Tour is a 2019 kart racing mobile game, the fourteenth in the franchise in the Mario Kart series, developed by Nintendo EPD and published by Nintendo for iOS and Android devices. The game was announced in January 2018 and was released on September 25, 2019, on Apple App Store and Google Play. This game features biweekly, downloadable themed tours with different cups, each of which has three courses and a bonus challenge. In addition to courses which have already appeared in the Mario Kart series, Mario Kart Tour includes courses located in world cities.";
+    pElement.textContent = "Mario Kart Tour is a 2019 kart racing mobile game, the fourteenth in the franchise in the Mario Kart series, developed by Nintendo EPD and published by Nintendo for iOS and Android devices. The game was announced in January 2018 and was released on September 25, 2019, on Apple App Store and Google Play. This game features biweekly, downloadable themed tours with different cups, each of which has three courses and a bonus challenge.";
     marioKart10.classList.add("marioTien");
     marioKart10.classList.remove("marioEen", "marioDrie", "marioVier", "marioVijf", "marioZes", "marioZeven", "marioAcht", "marioNegen", "marioTwee");
     Jaartal.textContent = "2019";

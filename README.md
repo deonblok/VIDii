@@ -219,6 +219,9 @@ Het stuur roteer nu ook naar links, zodra je ene jaartal terug gaat gaat het stu
 
 Ik merk wel progressie in mijn code werk en dat vind ik leuk om te zien! Ik begrijp nu ook waar ik mee bezig ben en dat zorgt ervoor dat ik het ook wat leuker ben gaan vindne de afgelopen weken. :)
 
+Resultaat:
+<img src="readme-images/eindresultaat-2.0.png" width="375px" alt="final ontwerp">
+
 </details>
 
 ## Bronnenlijst

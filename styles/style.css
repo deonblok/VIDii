@@ -345,7 +345,7 @@ section:first-of-type img:hover {
 
 section:nth-of-type(2) p {
     width: 25em;
-    /* height: 22em; */
+    height: 18em;
     background-color: var(--color-black);
     visibility: hidden;
     text-align: center;
@@ -461,13 +461,18 @@ section:nth-of-type(3) img.marioTien {
 }
 
 @media (max-width:89em) {
+    body {
+        overflow-y: scroll;
+    }
+    /* section:nth-of-type(3) {
+       
+    } */
     section:nth-of-type(3) img {
-        position: relative;
-        max-width: 18em;
-        max-height: 15em;
+        width: 10em;
+        height: 8em;
         visibility: hidden;
         display: flex;
-        flex-wrap: wrap;
+        margin-top: -10em;
     }
     section:nth-of-type(3) img.activate {
         visibility: visible;
@@ -476,31 +481,41 @@ section:nth-of-type(3) img.marioTien {
         visibility: visible;
     }
     section:nth-of-type(2) p {
-        position: relative;
-        max-width: 18em;
-        min-height: 18em;
+        width: 20em;
+        height: 20em;
         background-color: var(--color-black);
         visibility: hidden;
         text-align: center;
         font-family: mario-kart-position;
-        font-size: 1em;
+        font-size: .5em;
         border: 1em solid var(--color-none);
         /* https://shop.beertjecreatief.nl/nl/detail/464376/f-f-background-black-white-blocks.htm */
         border-image: url("../images/checkerboard-pattern.jpeg") 9%;
         display: flex;
         padding: .5em;
     }
+    section:nth-of-type(2) {
+        margin-top: 23em;
+        width: 25em;
+    }
     section:first-of-type {
         display: grid;
         place-content: center;
-        position: relative;
+        margin-top: 13em;
     }
     section:first-of-type img {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
-        margin: 0;
         padding: 0;
+        width: 10em;
+        height: 10em;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow-y: scroll;
     }
 }

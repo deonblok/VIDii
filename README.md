@@ -217,7 +217,7 @@ Ik heb in mijn javascript een classList.remove toegevoegd met daarin alle andere
 Ik heb tijdens het eerste beoordelingsgesprek al hulp gekregn voor de responsiveness van mijn website voor de achtergrond en de ol onderaan de pagina. Zelf heb ik hulpo gevraagd aan een medestudent om mij hierbij te helpen. Zij gaf aan dat het een slim idee was om een media query toe te voegen en daarin de afbeeldingen te verkleinen. Ik heb uitgezocht hoe dit moest en toegevoegd aan mijn website.
 Het stuur roteer nu ook naar links, zodra je een jaartal terug gaat gaat het stuur weer mee terug. Dit vind ik er zelf veel beter uitzien nu!
 
-Ik merk wel progressie in mijn code werk en dat vind ik leuk om te zien! Ik begrijp nu ook waar ik mee bezig ben en dat zorgt ervoor dat ik het ook wat leuker ben gaan vindne de afgelopen weken. :)
+Ik merk wel progressie in mijn code werk en dat vind ik leuk om te zien! Ik begrijp nu ook waar ik mee bezig ben en dat zorgt ervoor dat ik het ook wat leuker ben gaan vinden de afgelopen weken. :)
 
 Resultaat:
 <img src="readme-images/eindresultaat-2.0.png" width="375px" alt="final ontwerp">
